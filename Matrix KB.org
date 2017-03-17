@@ -1,0 +1,142 @@
+#+STARTUP: overview
+Matrix Knowledge Base
+
+* FAQ
+** Riot
+*** Web
+*** Android
+*** iOS
+** Synapse
+** Dendrite
+** Matrix
+* Bridges
+** Discord
+*** Half-Shot
+
+- #discord:half-shot.uk
+
+* Frameworks
+** Python
+*** python-matrix-bot-api (shawnanastasio)
+
+@shawnanastasio:matrix.anastas.io said:
+
+Hi all, sorry for the shameless self promotion, but I made a python client to easily create Matrix bots with:
+
+- https://github.com/shawnanastasio/python-matrix-bot-api
+
+Any feedback would be greatly appreciated!
+
+https://matrix.to/#/#matrix:matrix.org/%24148730913815005AqGXp:matrix.anastas.io
+
+* Applications
+** Blogging
+*** J (Luke Barnard)
+
+There is "j", which is a full-featured blogging system including comments.
+- https://github.com/lukebarnard1/j
+
+* Keywords (old, to be reworked)
+** 3pid
+
+In the context of Matrix, any identifier which is not a Matrix ID. This includes e-mail addresses, phone numbers, Facebook accounts, etc.
+
+** alias :missing:
+** balancing interop and privacy
+
+[Slides] Matthew talks about the challenge of balancing interoperability and privacy: https://matrix.org/~matthew/2016-12-22%20Matrix%20Balancing%20Interop%20and%20Privacy.pdf
+
+** crypto export
+
+The export of cryptographic technology and devices from the United States was severely restricted by U.S. law until 1992, but was gradually eased until 2000. Some restrictions still remain. https://en.wikipedia.org/wiki/Export_of_cryptography_from_the_United_States
+
+** desktop app :missing:
+** e2e implementation guide :missing:
+** emacs client
+
+See https://fort.kickass.systems/git/rrix/matrix-client.git
+
+** exul slides :missing:
+** federation tester :missing:
+** gc :missing:
+** go-neb
+
+Multi-purpose Matrix bot. https://github.com/matrix-org/go-neb
+
+** id :missing:
+** identity server :missing:
+** irc network list :missing:
+** ivar
+
+https://github.com/torhve/ivar2
+
+** matrigram
+
+If anyone is interested in using a telegram bridge, we'd love to hear some feedback https://github.com/GalPressman/matrigram
+
+** matrix on freenode :missing:
+** matrix-recorder
+
+Okay, I think a first version is finally done: https://gitlab.com/argit/matrix-recorder - the idea is that the tool would allow you to keep a record of your conversations, as Riot does not yet allow you to export your message history in a format suitable for safekeeping.
+
+** migrating to postgres :missing:
+** mubot
+
+https://github.com/davidar/hubot-matrix
+
+** mxid :missing:
+** network list :missing:
+** olm :missing:
+** receipt :missing:
+** reindex
+
+TIL that PostgreSQL may have internal fragmentation in the btrees used for indexes, and that can cause VACUUM FULL to make the database bigger... which can be solved by issuing a REINDEX DATABASE - https://matrix.to/#/!cURbafjkfsMDVwdRDQ:matrix.org/%2414835668811638615xXMYC:matrix.org
+
+** screen sharing :missing:
+** setting up federation
+
+https://github.com/matrix-org/synapse#setting-up-federation has words on it.
+
+** slack bridge
+*** Matrix-org
+
+https://github.com/matrix-org/matrix-appservice-slack
+
+*** kfatehi
+
+https://github.com/kfatehi/matrix-appservice-slack
+
+** slack hook
+
+See https://matrix.to/#/!svJUttHBtRMdXmEhEy:matrix.org/$14836112541869035fxcVU:matrix.org
+
+** synpurge :fixme:
+
+Utility script to Matrix room history purge room in Synapse https://github.com/aperezdc/synpurge. Synpurge has reached v4! https://pypi.python.org/pypi/synpurge/4
+
+** telegram bridge
+*** telematrix (Sijmen Schoon)
+
+https://github.com/SijmenSchoon/telematrix
+
+** those little circles :missing:
+** upgrade script :missing:
+** webrtc tutorial
+*** Basics
+
+https://www.html5rocks.com/en/tutorials/webrtc/basics/
+
+*** Infrastructure
+
+https://www.html5rocks.com/en/tutorials/webrtc/infrastructure/
+
+** xmpp bridge
+*** matrix-xmpp-bridge
+
+https://github.com/pztrn/matrix-xmpp-bridge
+
+*** xmpptrix
+
+https://github.com/SkaveRat/xmpptrix
+
+** yzord :missing:
