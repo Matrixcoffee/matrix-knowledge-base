@@ -1,7 +1,40 @@
 #+STARTUP: overview
-Matrix Knowledge Base
+Hi, welcome to the Matrix Knowledge Base.
+
+Don't be put off by Github's horrible attempt at rendering this. It's much better with a proper tool. (See the FAQ FAQ)
 
 * FAQ
+** FAQ FAQ
+
+Questions about this FAQ and directory itself.
+
+*** What is this?
+
+This is at the moment both a FAQ and a directory for the Matrix ecosystem in the widest sense possible.
+
+*** What is it written in?
+
+This document is written in Org mode format. See http://orgmode.org for more information.
+
+*** What tools are used to author and render this?
+**** Authoring
+
+An android app called Orgzly, which is available from F-Droid. Homepage at http://www.orgzly.com
+
+**** Rendering :fixme:
+
+(none, so far)
+
+*** Isn't there /already/ a Matrix FAQ?
+
+Yes. This document even links to it at the top of the Matrix section.
+
+*** So why another FAQ?
+**** Knowledge about Matrix is highly scattered across many deep-linked documents. This KB brings them together in a comprehensive overview, and links to them.
+**** This Knowledge Base is not merely a Matrix FAQ: it also has FAQs for some of its popular clients and tools, such as Riot. Moreover, it is also a directory, curating a wide spectrum of software which works with Matrix in one way or another.
+**** Using the Org mode format with the Orgzly app lets me more easily curate the questions and answers.
+**** It is intended to eventually allow bidirectional conversion of (sections of) this KB, allowing one to wholly import external FAQs, work on them, and then contribute back, keeping everything in sync.
+**** There are plans for a FAQbot. The Org mode format is very suitable for automatic processing, and one day a bot could be answering questions in Matrix rooms, drawing on this KB for its knowledge.
 ** Riot
 *** Web
 *** Android
@@ -15,7 +48,7 @@ Matrix Knowledge Base
 
 * Bridges
 ** Discord
-*** Half-Shot
+*** Half-Shot :fixme:
 
 - #discord:half-shot.uk
 
@@ -41,6 +74,9 @@ There is "j", which is a full-featured blogging system including comments.
 - https://github.com/lukebarnard1/j
 
 * Keywords (old, to be reworked)
+
+This contains the keywords that were taught to *mubot* at some point. An update to mubot means this information is now "lost". It is being reconstructed here, for the purpose of eventually integrating it into the FAQ/Directory properly.
+
 ** 3pid
 
 In the context of Matrix, any identifier which is not a Matrix ID. This includes e-mail addresses, phone numbers, Facebook accounts, etc.
@@ -161,3 +197,4 @@ Things which probably need to be added, but need a closer look.
 
 ** https://github.com/non-Jedi/matrix_relay
 ** https://github.com/turt2live/matrix-appservice-instagram
+** The IRC wish list is at https://github.com/matrix-org/matrix-appservice-irc/issues/208, and geekshed is already on the list.
