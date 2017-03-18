@@ -9,6 +9,10 @@ Matrix Knowledge Base
 ** Synapse
 ** Dendrite
 ** Matrix
+*** The Matrix FAQ
+
+- https://matrix.org/docs/guides/faq.html
+
 * Bridges
 ** Discord
 *** Half-Shot
