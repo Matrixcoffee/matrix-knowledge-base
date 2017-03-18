@@ -50,6 +50,17 @@ In the context of Matrix, any identifier which is not a Matrix ID. This includes
 
 [Slides] Matthew talks about the challenge of balancing interoperability and privacy: https://matrix.org/~matthew/2016-12-22%20Matrix%20Balancing%20Interop%20and%20Privacy.pdf
 
+** Code of Conduct
+*** Riot
+
+???
+
+*** Matrix
+
+This code of conduct outlines our expectations for participants within the Matrix community, as well as steps for reporting unacceptable behaviour. We are committed to providing a welcoming and inspiring community for all, and expect our code of conduct to be honoured. Anyone who violates this code of conduct may be banned from the community.
+
+- https://matrix.org/docs/guides/code_of_conduct.html
+
 ** crypto export
 
 The export of cryptographic technology and devices from the United States was severely restricted by U.S. law until 1992, but was gradually eased until 2000. Some restrictions still remain. https://en.wikipedia.org/wiki/Export_of_cryptography_from_the_United_States
