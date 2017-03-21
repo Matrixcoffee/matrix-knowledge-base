@@ -54,6 +54,25 @@ CORS errors are generally not actually anything to do with CORS, but hide a plai
 
 However, as plain errors don't have CORS headers, it gives this confusing warning.
 
+**** How can I change the language?
+
+This is not yet possible.
+
+**** What is the best way to contribute a translation?
+
+Riot-Web currently lacks the infrastructure to support i18n, and as such, does not accept translations at this point in time.
+
+https://matrix.to/#/#riot:matrix.org/%241487935362359914vmevo:matrix.org has the latest word on it.
+
+***** [[https://matrix.to/#/@MTRNord:matrix.eclabs.de][MTRNord]] is currently working on adding the necessary i18n infrastructure:
+:PROPERTIES:
+:source:   https://matrix.to/#/#riot:matrix.org/%2414900026486026TwjNl:matrix.eclabs.de
+:END:
+
+If anyone is interested: I work currently on making Translations in RiotWeb possible. My work is based on the master currently. If anyone wants to add transations take a look at the files in ./src/i18n in these 2 repos: https://github.com/MTRNord/matrix-react-sdk/tree/translations  and   https://github.com/MTRNord/riot-web/tree/translation
+
+PS: I am still working on that so There isn't yet every string translated and also there are maybe some bugs
+
 **** My question isn't answered here. Where can I ask for help?
 
 The Web and Desktop versions of Riot have a dedicated room at [[https://matrix.to/#/#riot:matrix.org][#riot:matrix.org]] for user questions. Please note that this is also the place for general issues which encompass _all_ Riot platforms. (Web, Desktop, Android, iOS.)
@@ -68,6 +87,22 @@ See http://www.wikihow.com/Get-Emoji-on-Android
 **** How do I join an existing room? (For example, #riot-android:matrix.org) :join_room:
 
 From the main ("Messages") screen, Press the magnifying glass and type the room alias into the search field.
+
+**** How can I change the language?
+
+This is not yet possible.
+
+**** What is the best way to contribute a translation?
+
+The Riot-Android maintainers don't seem to be taking translations at the moment. In this author's opinion, your time is better spent elsewhere, until Riot actively invites i18n contributions.
+
+https://matrix.to/#/#riot-android:matrix.org/%241487938480379751GMruq:matrix.org has the last word on it.
+
+Related issues:
+- [[https://github.com/vector-im/issues/811][#811 How can I translate the app?]]
+- [[https://github.com/vector-im/pull/1046][#1046 Offering translation into Russian]]
+- [[https://github.com/vector-im/issues/759][#759 translate inteface to pl]]
+- [[https://github.com/vector-im/pull/660][#660 add portugese language]
 
 **** My question isn't answered here. Where can I ask for help?
 
