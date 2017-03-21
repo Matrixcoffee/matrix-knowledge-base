@@ -102,7 +102,7 @@ Related issues:
 - [[https://github.com/vector-im/riot-android/issues/811][#811 How can I translate the app?]]
 - [[https://github.com/vector-im/riot-android/pull/1046][#1046 Offering translation into Russian]]
 - [[https://github.com/vector-im/riot-android/issues/759][#759 translate inteface to pl]]
-- [[https://github.com/vector-im/riot-android/pull/660][#660 add portugese language]
+- [[https://github.com/vector-im/riot-android/pull/660][#660 add portugese language]]
 
 **** My question isn't answered here. Where can I ask for help?
 
