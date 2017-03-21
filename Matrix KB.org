@@ -94,7 +94,7 @@ This is not yet possible.
 
 **** What is the best way to contribute a translation?
 
-The Riot-Android maintainers don't seem to be taking translations at the moment. In this author's opinion, your time is better spent elsewhere, until Riot actively invites i18n contributions.
+The Riot-Android maintainers don't seem to be taking translations at the moment. Consider investing your time elsewhere, until the project starts actively seeking i18n contributions.
 
 https://matrix.to/#/#riot-android:matrix.org/%241487938480379751GMruq:matrix.org has the last word on it.
 
