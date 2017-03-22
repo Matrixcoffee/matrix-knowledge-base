@@ -1,7 +1,7 @@
 #+STARTUP: overview
 Hi, welcome to the Matrix Knowledge Base.
 
-Don't be put off by Github's horrible attempt at rendering this. It's much better with a proper tool. (See the FAQ FAQ)
+Don't be put off by Github's horrible attempt at rendering this. It's much better with a proper tool. (See the FAQ FAQ.)
 
 * FAQ
 ** FAQ FAQ
@@ -19,7 +19,7 @@ This document is written in Org mode format. See http://orgmode.org for more inf
 *** What tools are used to author and render this?
 **** Authoring
 
-An android app called Orgzly, which is available from F-Droid. Homepage at http://www.orgzly.com
+[[http://www.orgzly.com][Orgzly for Android]], which is also available from [[https://f-droid.org/app/com.orgzly][F-Droid]].
 
 **** Synchronizing
 
@@ -34,11 +34,13 @@ MGit: https://github.com/maks/MGit
 Yes. This document even links to it at the top of the Matrix section.
 
 *** So why another FAQ?
-**** Knowledge about Matrix is highly scattered across many deep-linked documents. This KB brings them together in a comprehensive overview, and links to them.
-**** This Knowledge Base is not merely a Matrix FAQ: it also has FAQs for some of its popular clients and tools, such as Riot. Moreover, it is also a directory, curating a wide spectrum of software which works with Matrix in one way or another.
-**** Using the Org mode format with the Orgzly app lets me more easily curate the questions and answers on my mobile phone.
-**** It is intended to eventually allow bidirectional conversion of (sections of) this KB, allowing one to wholly import external FAQs, work on them, and then contribute back, keeping everything in sync.
-**** There are plans for a FAQbot. The Org mode format is very suitable for automatic processing, and one day a bot could be answering questions in Matrix rooms, drawing on this KB for its knowledge.
+
+- Knowledge about Matrix is scattered across many deep-linked documents. This KB brings them together in a comprehensive overview, and links to them.
+- This Knowledge Base is not merely a Matrix FAQ: it also has FAQs for some of its popular clients and tools, such as Riot. Moreover, it is also a directory, curating a wide spectrum of software which works with Matrix in one way or another.
+- Using the Org mode format with the Orgzly app lets me more easily curate the questions and answers on my mobile phone.
+- It is intended to eventually allow bidirectional conversion of (sections of) this KB, allowing one to wholly import external FAQs, work on them, and then contribute back, keeping everything in sync.
+- There are plans for a FAQbot. The Org mode format is very suitable for automatic processing, and one day a bot could be answering questions in Matrix rooms, drawing on this KB for its knowledge.
+
 *** I have questions or suggestions for this FAQ itself. Where can I go to talk to a human?
 
 The Matrix Knowledge Base has a dedicated room at [[https://matrix.to/#/#mkb:matrix.org][#matrix-knowledge-base:matrix.org]]. This room is not for general Matrix questions. For those, see the rest of this FAQ.
@@ -69,9 +71,11 @@ https://matrix.to/#/#riot:matrix.org/%241487935362359914vmevo:matrix.org has the
 :source:   https://matrix.to/#/#riot:matrix.org/%2414900026486026TwjNl:matrix.eclabs.de
 :END:
 
+#+BEGIN_QUOTE
 If anyone is interested: I work currently on making Translations in RiotWeb possible. My work is based on the master currently. If anyone wants to add transations take a look at the files in ./src/i18n in these 2 repos: https://github.com/MTRNord/matrix-react-sdk/tree/translations  and   https://github.com/MTRNord/riot-web/tree/translation
 
 PS: I am still working on that so There isn't yet every string translated and also there are maybe some bugs
+#+END_QUOTE
 
 **** My question isn't answered here. Where can I ask for help?
 
@@ -112,7 +116,7 @@ Riot-Android version has a dedicated room at [[https://matrix.to/#/#riot-android
 *** iOS
 **** My question isn't answered here. Where can I ask for help?
 
-Riot-iOS version has a dedicated room at [[https://matrix.to/#/#riot-ios:matrix.org][#riot-ios:matrix.org]] for both user questions and developer talk.
+Riot-iOS has a dedicated room at [[https://matrix.to/#/#riot-ios:matrix.org][#riot-ios:matrix.org]] for both user questions and developer talk.
 
 ** Synapse
 *** How do I enable the built-in web client? :fixme:
@@ -121,9 +125,9 @@ Don't. It's deprecated. Either use Riot at https://riot.im/app with a (your) cus
 
 *** My question isn't answered here. Where can I ask for help?
 
-There doesn't seem to be a dedicated official room for Synapse. You can try your questions in [[https://matrix.to/#/#matrix:matrix.org][#matrix:matrix.org]], or if they're highly technical, in [[https://matrix.to/#/#matrix-dev:matrix.org][#matrix-dev:matrix.org]].
+The designated place to ask questions about Synapse is [[https://matrix.to/#/#matrix:matrix.org][#matrix:matrix.org]], or if the questions are more technical, in [[https://matrix.to/#/#matrix-dev:matrix.org][#matrix-dev:matrix.org]].
 
-A community-run room also exists at [[https://matrix.to/#/#synapse-community:matrix.org][#synapse-community:matrix.org]]. Although this doesn't have official backing from the Synapse developers, it might offer a more relaxed space for the beginning Synapse user, as opposed to the official rooms where your question might quickly scroll out of view, going unanswered.
+A community-run room also exists at [[https://matrix.to/#/#synapse-community:matrix.org][#synapse-community:matrix.org]]. Although the room doesn't have official backing from the Synapse developers, it is exclusively dedicated to Synapse, and as such, can offer more focus.
 
 ** Dendrite
 *** So what's the latest word on Dendrite?
