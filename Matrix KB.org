@@ -58,7 +58,7 @@ However, as plain errors don't have CORS headers, it gives this confusing warnin
 
 This is not yet possible.
 
-**** What is the best way to contribute a translation?
+**** What is the best way to contribute a translation? :i18n:
 
 Riot-Web currently lacks the infrastructure to support i18n, and as such, does not accept translations at this point in time.
 
@@ -88,21 +88,22 @@ See http://www.wikihow.com/Get-Emoji-on-Android
 
 From the main ("Messages") screen, Press the magnifying glass and type the room alias into the search field.
 
-**** How can I change the language?
+**** How can I change the language? :needsverification:
 
-This is not yet possible.
+This is not yet possible. However, it should automatically switch to your phone's system language, if a translation is available.
 
-**** What is the best way to contribute a translation?
+**** What is the best way to contribute a translation? :i18n:
 
-The Riot-Android maintainers don't seem to be taking translations at the moment. Consider investing your time elsewhere, until the project starts actively seeking i18n contributions.
+There is no translation guide yet. To see an example of what a pull request should look like, take a look at [[https://github.com/vector-im/riot-android/pull/1046][pull #1046: Offering translation into Russian]].
 
-https://matrix.to/#/#riot-android:matrix.org/%241487938480379751GMruq:matrix.org has the last word on it.
+(This pull request is not necessarily an example that stands above all others, and was chosen at random, after some minimal verification.)
 
 Related issues:
 - [[https://github.com/vector-im/riot-android/issues/811][#811 How can I translate the app?]]
 - [[https://github.com/vector-im/riot-android/pull/1046][#1046 Offering translation into Russian]]
 - [[https://github.com/vector-im/riot-android/issues/759][#759 translate inteface to pl]]
 - [[https://github.com/vector-im/riot-android/pull/660][#660 add portugese language]]
+- [[https://github.com/vector-im/riot-android/issues/357][#357 Internationalise vector]]
 
 **** My question isn't answered here. Where can I ask for help?
 
