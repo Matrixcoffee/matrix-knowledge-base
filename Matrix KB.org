@@ -181,6 +181,32 @@ General Matrix questions can be asked in [[https://matrix.to/#/#matrix:matrix.or
 - Site: https://github.com/turt2live/matrix-appservice-instagram
 - Availability: self-hosting required
 
+** IRC
+*** Bridged Networks
+
+|Name    |Room format                     |User format                    |Comment                |
+|--------+--------------------------------+-------------------------------+-----------------------|
+|Freenode|=#freenode_#channame:matrix.org=|=@freenode_nickname:matrix.org=|/No leading underscore/|
+|Moznet  |=#mozilla_#channame:matrix.org= |                               |/No leading underscore/|
+|OFTC    |=#_oftc_#channame:matrix.org=   |                               |                       |
+|Snoonet |=#_snoonet_#channame:matrix.org=|                               |                       |
+|hackint |=#channame:irc.hackint.org=     |=@irc_nickname:irc.hackint.org=|Hosted by hackint      |
+|GIMPNet |=#_gimpnet_#channame:matrix.org=|                               |                       |
+
+Another nice-looking list is [[https://github.com/matrix-org/matrix-appservice-irc/wiki/Bridged-IRC-networks][on the wiki]].
+
+The /official/ IRC network (wish)list can be [[https://github.com/matrix-org/matrix-appservice-irc/issues/208][found here]].
+
+*** Non-bridged networks (wishlist)
+
+The official IRC network wishlist can be [[https://github.com/matrix-org/matrix-appservice-irc/issues/208][found here]].
+
+*** matrix-appservice-irc
+
+The software which runs the official [[https://matrix.org][matrix.org]]-hosted IRC bridges is at [[https://github.com/matrix-org/matrix-appservice-irc]].
+
+It has a Matrix room at [[https://matrix.to/#/#irc:matrix.org][#irc:matrix.org]] for both user questions and developer talk.
+
 ** My question isn't answered here. Where can I ask for help?
 
 Irc bridges have a dedicated room at [[https://matrix.to/#/#irc:matrix.org][#irc:matrix.org]] for both user questions and developer talk.
@@ -333,7 +359,6 @@ Things which should probably be added, but need to be reworked, or need a closer
 
 (This section is mainly an artifact of me not being able to file or access issues offline.)
 
-** The IRC wish list is at https://github.com/matrix-org/matrix-appservice-irc/issues/208, and geekshed is already on the list.
 ** What happens if I mark a room as "direct chat"? Does it effect anything? :needsanswer:
 ** A shell script for tagging rooms
 
