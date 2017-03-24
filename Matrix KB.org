@@ -371,9 +371,12 @@ https://matrix.to/#/#matrix:matrix.org/%2414902578321344171PDCNZ:matrix.org
 ** Add #hello-matrix:matrix.org and hello-matrix.net
 ** I found the icons missing after the nginx reverse proxy, any sample nginx config for riot-web?
 
-
 FYI. It caused by X-Frame-Options set to deny. Now I use the SAMEORIGIN and problem solved.
 
 https://matrix.to/#/!DgvjtOljKujDBrxyHk:matrix.org/%2414903176841958169Wkaps:matrix.org
 #riot:matrix.org
+
+** Add GCM replacements
+
+Add here and to riot-android#1066
 
