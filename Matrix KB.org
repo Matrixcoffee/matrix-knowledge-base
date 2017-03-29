@@ -102,17 +102,11 @@ Translatable strings are in ~res/values/strings.xml~ and ~res/values/array.xml~,
 
 To see an example of what a pull request should look like, take a look at [[https://github.com/vector-im/riot-android/pull/1046][pull #1046: Offering translation into Russian]].
 
-#+BEGIN_note
 (This pull request is not necessarily an example that stands above all others, and was chosen at random, after some minimal verification.)
-#+END_note
 
-#+BEGIN_important
 *Important*: Translations must be made against the ~develop~ branch, /not/ +master+.
-#+END_important
 
-#+BEGIN_note
 [[https://github.com/matrix-org/matrix-android-sdk][matrix-android-sdk]] needs to be translated as well.
-#+END_note
 
 ***** Related issues
 
