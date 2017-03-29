@@ -96,9 +96,11 @@ From the main ("Messages") screen, Press the magnifying glass and type the room 
 
 This is not yet possible. However, it should automatically switch to your phone's system language, if a translation is available.
 
-**** What is the best way to contribute a translation? :i18n:
+**** What is the best way to contribute a translation? @@html:<a name="translate-android">@@ :i18n:
 
-There is no translation guide yet. To see an example of what a pull request should look like, take a look at [[https://github.com/vector-im/riot-android/pull/1046][pull #1046: Offering translation into Russian]].
+Translatable strings are in ~res/values/strings.xml~ and ~res/values/array.xml~, and should go to ~res/values-xx/strings.xml~ and ~res/values-xx/array.xml~, respectively, where ~xx~ is the lower-case two-letter language code.
+
+To see an example of what a pull request should look like, take a look at [[https://github.com/vector-im/riot-android/pull/1046][pull #1046: Offering translation into Russian]].
 
 #+BEGIN_note
 (This pull request is not necessarily an example that stands above all others, and was chosen at random, after some minimal verification.)
@@ -108,7 +110,12 @@ There is no translation guide yet. To see an example of what a pull request shou
 *Important*: Translations must be made against the ~develop~ branch, /not/ +master+.
 #+END_important
 
-Related issues:
+#+BEGIN_note
+[[https://github.com/matrix-org/matrix-android-sdk][matrix-android-sdk]] needs to be translated as well.
+#+END_note
+
+***** Related issues
+
 - [[https://github.com/vector-im/riot-android/issues/811][#811 How can I translate the app?]]
 - [[https://github.com/vector-im/riot-android/pull/1046][#1046 Offering translation into Russian]]
 - [[https://github.com/vector-im/riot-android/issues/759][#759 translate inteface to pl]]
