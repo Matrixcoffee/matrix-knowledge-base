@@ -98,6 +98,8 @@ This is not yet possible. However, it should automatically switch to your phone'
 
 **** What is the best way to contribute a translation? @@html:<a name="translate-android">@@ :i18n:
 
+*Important*: Before contributing anything, please read [[https://github.com/vector-im/riot-android/blob/master/CONTRIBUTING.rst][Contributing code to Matrix]] carefully and make sure you understand and agree with everything written therein.
+
 The best way is to send a pull request against the ~develop~ branches of [[https://github.com/vector-im/riot-android][riot-android]] and [[https://github.com/matrix-org/matrix-android-sdk][matrix-android-sdk]].
 
 Translatable strings are in ~res/values/strings.xml~ and ~res/values/array.xml~, and should go to ~res/values-xx/strings.xml~ and ~res/values-xx/array.xml~, respectively, where ~xx~ is the lower-case two-letter language code.
