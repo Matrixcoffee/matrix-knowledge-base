@@ -112,6 +112,9 @@ To see an example of what a pull request should look like, take a look at [[http
 
 [[https://github.com/matrix-org/matrix-android-sdk][matrix-android-sdk]] needs to be translated as well.
 
+Tip: Android Studio has a
+[[https://developer.android.com/studio/write/translations-editor.html][Translations Editor]].
+
 ***** Related issues
 
 - [[https://github.com/vector-im/riot-android/issues/811][#811 How can I translate the app?]]
