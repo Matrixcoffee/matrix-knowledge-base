@@ -92,9 +92,9 @@ See http://www.wikihow.com/Get-Emoji-on-Android
 
 From the main ("Messages") screen, Press the magnifying glass and type the room alias into the search field.
 
-**** How can I change the language? :needsverification:
+**** How do I switch the language? @@html:<a name="android-switch-language">@@
 
-This is not yet possible. However, it should automatically switch to your phone's system language, if a translation is available.
+Riot for Android will automatically switch to your phone's system language, if a translation is available. Manually changing the language is not yet possible, but is planned in [[https://github.com/vector-im/riot-android/issues/1076][#1076]].
 
 **** What is the best way to contribute a translation? :i18n:
 
