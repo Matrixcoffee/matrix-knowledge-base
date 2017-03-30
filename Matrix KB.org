@@ -96,19 +96,27 @@ From the main ("Messages") screen, Press the magnifying glass and type the room 
 
 Riot for Android will automatically switch to your phone's system language, if a translation is available. Manually changing the language is not yet possible, but is planned in [[https://github.com/vector-im/riot-android/issues/1076][#1076]].
 
-**** What is the best way to contribute a translation? :i18n:
+**** What is the best way to contribute a translation? @@html:<a name="translate-android">@@ :i18n:
 
-There is no translation guide yet. To see an example of what a pull request should look like, take a look at [[https://github.com/vector-im/riot-android/pull/1046][pull #1046: Offering translation into Russian]].
+*Important*: Before contributing anything, please read [[https://github.com/vector-im/riot-android/blob/master/CONTRIBUTING.rst][Contributing code to Matrix]] carefully and make sure you understand and agree with everything written therein.
 
-#+BEGIN_note
+After having read [[https://github.com/vector-im/riot-android/blob/master/CONTRIBUTING.rst][Contributing code to Matrix]], the best way to contribute your translation is to send a pull request against the ~develop~ branches of [[https://github.com/vector-im/riot-android][riot-android]] and [[https://github.com/matrix-org/matrix-android-sdk][matrix-android-sdk]].
+
+Translatable strings are in ~res/values/strings.xml~ and ~res/values/array.xml~, and should go to ~res/values-xx/strings.xml~ and ~res/values-xx/array.xml~, respectively, where ~xx~ is the lower-case two-letter language code.
+
+To see an example of what a pull request should look like, take a look at [[https://github.com/vector-im/riot-android/pull/1046][pull #1046: Offering translation into Russian]].
+
 (This pull request is not necessarily an example that stands above all others, and was chosen at random, after some minimal verification.)
-#+END_note
 
-#+BEGIN_important
 *Important*: Translations must be made against the ~develop~ branch, /not/ +master+.
-#+END_important
 
-Related issues:
+[[https://github.com/matrix-org/matrix-android-sdk][matrix-android-sdk]] needs to be translated as well.
+
+Tip: Android Studio has a
+[[https://developer.android.com/studio/write/translations-editor.html][Translations Editor]].
+
+***** Related issues
+
 - [[https://github.com/vector-im/riot-android/issues/811][#811 How can I translate the app?]]
 - [[https://github.com/vector-im/riot-android/pull/1046][#1046 Offering translation into Russian]]
 - [[https://github.com/vector-im/riot-android/issues/759][#759 translate inteface to pl]]
