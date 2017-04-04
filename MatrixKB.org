@@ -304,10 +304,6 @@ Multi-purpose Matrix bot. https://github.com/matrix-org/go-neb
 
 https://github.com/torhve/ivar2
 
-** matrigram
-
-If anyone is interested in using a telegram bridge, we'd love to hear some feedback https://github.com/GalPressman/matrigram
-
 ** matrix on freenode :missing:
 ** matrix-recorder
 
@@ -349,6 +345,10 @@ See https://matrix.to/#/!svJUttHBtRMdXmEhEy:matrix.org/$14836112541869035fxcVU:m
 Utility script to Matrix room history purge room in Synapse https://github.com/aperezdc/synpurge. Synpurge has reached v4! https://pypi.python.org/pypi/synpurge/4
 
 ** telegram bridge
+*** matrigram
+
+If anyone is interested in using a telegram bridge, we'd love to hear some feedback https://github.com/GalPressman/matrigram
+
 *** telematrix (Sijmen Schoon)
 
 https://github.com/SijmenSchoon/telematrix
