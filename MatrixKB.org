@@ -314,6 +314,8 @@ Okay, I think a first version is finally done: https://gitlab.com/argit/matrix-r
 
 https://github.com/davidar/hubot-matrix
 
+#mubot:davidar.io
+
 ** mxid :missing:
 ** network list :missing:
 ** olm :missing:
