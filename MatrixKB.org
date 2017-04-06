@@ -77,6 +77,11 @@ If anyone is interested: I work currently on making Translations in RiotWeb poss
 PS: I am still working on that so There isn't yet every string translated and also there are maybe some bugs
 #+END_QUOTE
 
+#+BEGIN_QUOTE
+for those interested in riot-web translations: there is a channel. (backlog is german but english is no problem there)
+#riotweb-translations:matrix.org
+#+END_QUOTE
+
 **** My question isn't answered here. Where can I ask for help?
 
 The Web and Desktop versions of Riot have a dedicated room at [[https://matrix.to/#/#riot:matrix.org][#riot:matrix.org]] for user questions. Please note that this is also the place for general issues which encompass _all_ Riot platforms. (Web, Desktop, Android, iOS.)
