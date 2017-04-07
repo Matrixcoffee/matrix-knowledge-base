@@ -132,7 +132,7 @@ Riot-Android version has a dedicated room at [[https://matrix.to/#/#riot-android
 
 Riot-iOS has a dedicated room at [[https://matrix.to/#/#riot-ios:matrix.org][#riot-ios:matrix.org]] for both user questions and developer talk.
 
-*** What commands I can use? :commands:
+*** What commands I can use? @@html:<a name="commands">@@ :commands:
 
 | command                                          | description                                                                |
 |--------------------------------------------------+----------------------------------------------------------------------------|
