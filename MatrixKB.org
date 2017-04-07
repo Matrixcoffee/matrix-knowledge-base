@@ -132,6 +132,19 @@ Riot-Android version has a dedicated room at [[https://matrix.to/#/#riot-android
 
 Riot-iOS has a dedicated room at [[https://matrix.to/#/#riot-ios:matrix.org][#riot-ios:matrix.org]] for both user questions and developer talk.
 
+*** What commands I can use? :commands:
+
+#+BEGIN_EXAMPLE
+/nick <display_name>: change your display name.
+/me <action>: send the action you are doing. /me will be replaced by your display name.
+/join <#room_alias:homeserver.domain>: join a room.
+/kick <@user_id:homeserver.domain> [<reason>]: kick the user.
+/ban <@user_id:homeserver.domain> [<reason>]: ban the user.
+/unban <@user_id:homeserver.domain>: unban the user.
+/op <@user_id:homeserver.domain> <power_level>: set the user power level.
+/deop <@user_id:homeserver.domain>: reset user power level to the room default value.
+#+END_EXAMPLE
+
 ** Synapse
 *** How do I enable the built-in web client? :fixme:
 
