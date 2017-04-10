@@ -195,6 +195,16 @@ Ironically, e2e encryption reduces privacy in some ways. Since Matrix e2e encryp
 
 General Matrix questions can be asked in [[https://matrix.to/#/#matrix:matrix.org][#matrix:matrix.org]]. If you're building on top of Matrix, please join [[https://matrix.to/#/#matrix-dev:matrix.org][#matrix-dev:matrix.org]].
 
+** Bridges
+*** What's a plumbed room? What's a portal room? What types of bridges are there? @@html:<a name="bridge-types">@@ :plumbed:portal:puppet:
+
+[[https://matrix.org/blog/2017/03/11/how-do-i-bridge-thee-let-me-count-the-ways/]] has a detailed overview.
+
+*** IRC
+**** How does this whole IRC bridging thing work? @@html:<a name="bridging-irc">@@
+
+[[https://matrix.org/blog/2017/03/14/an-adventure-in-irc-land/]] goes into detail about this.
+
 * Bridges
 ** Discord
 *** Half-Shot :fixme:
