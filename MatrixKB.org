@@ -151,9 +151,9 @@ Riot-iOS has a dedicated room at [[https://matrix.to/#/#riot-ios:matrix.org][#ri
 | =/deop <@user_id:homeserver.domain>=             | reset user power level to the room default value                           |
 
 ** Synapse
-*** How do I enable the built-in web client? :fixme:
+*** How do I enable the built-in web client?
 
-Don't. It's deprecated. Either use Riot at https://riot.im/app with a (your) custom server, or download a Riot tarball from *X* and host it yourself.
+Don't. It's deprecated. Either use Riot at https://riot.im/app with a (your) custom server, or download a Riot tarball from [[https://github.com/vector-im/riot-web/releases]] and host it yourself.
 
 *** My question isn't answered here. Where can I ask for help?
 
