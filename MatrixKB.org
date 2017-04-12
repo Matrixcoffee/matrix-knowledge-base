@@ -220,14 +220,14 @@ General Matrix questions can be asked in [[https://matrix.to/#/#matrix:matrix.or
 ** IRC
 *** Bridged Networks
 
-| Name     | Room format                      | User format                     | Comment                 |
-|----------+----------------------------------+---------------------------------+-------------------------|
-| Freenode | =#freenode_#channame:matrix.org= | =@freenode_nickname:matrix.org= | /No leading underscore/ |
-| Moznet   | =#mozilla_#channame:matrix.org=  |                                 | /No leading underscore/ |
-| OFTC     | =#_oftc_#channame:matrix.org=    |                                 |                         |
-| Snoonet  | =#_snoonet_#channame:matrix.org= |                                 |                         |
-| hackint  | =#channame:irc.hackint.org=      | =@irc_nickname:irc.hackint.org= | Hosted by hackint       |
-| GIMPNet  | =#_gimpnet_#channame:matrix.org= |                                 |                         |
+| Name     | Room format                      | User format                     | Appservice                        | Comment                 |
+|----------+----------------------------------+---------------------------------+-----------------------------------+-------------------------|
+| Freenode | =#freenode_#channame:matrix.org= | =@freenode_nickname:matrix.org= | =@appservice-irc:matrix.org=      | /No leading underscore/ |
+| Moznet   | =#mozilla_#channame:matrix.org=  |                                 |                                   | /No leading underscore/ |
+| OFTC     | =#_oftc_#channame:matrix.org=    |                                 | =@oftc-irc:matrix.org=            |                         |
+| Snoonet  | =#_snoonet_#channame:matrix.org= |                                 |                                   |                         |
+| hackint  | =#channame:irc.hackint.org=      | =@irc_nickname:irc.hackint.org= | =@appservice-irc:irc.hackint.org= | Hosted by hackint       |
+| GIMPNet  | =#_gimpnet_#channame:matrix.org= |                                 |                                   |                         |
 
 Another nice-looking list is [[https://github.com/matrix-org/matrix-appservice-irc/wiki/Bridged-IRC-networks][on the wiki]].
 
