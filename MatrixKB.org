@@ -306,7 +306,10 @@ The export of cryptographic technology and devices from the United States was se
 See https://fort.kickass.systems/git/rrix/matrix-client.git
 
 ** exul slides :missing:
-** federation tester :missing:
+** federation tester
+
+Test your server by appending its domain to: http://matrix.org/federationtester/api/report?server_name=
+
 ** gc :missing:
 ** go-neb
 
