@@ -159,6 +159,8 @@ Don't. It's deprecated. Either use Riot at https://riot.im/app with a (your) cus
 
 The designated place to ask questions about Synapse is [[https://matrix.to/#/#matrix:matrix.org][#matrix:matrix.org]], or if the questions are more technical, in [[https://matrix.to/#/#matrix-dev:matrix.org][#matrix-dev:matrix.org]].
 
+It is also worth checking the [[https://github.com/matrix-org/synapse/issues][bug tracker]] to see if others are having the same problem.
+
 A community-run room also exists at [[https://matrix.to/#/#synapse-community:matrix.org][#synapse-community:matrix.org]]. Although the room doesn't have official backing from the Synapse developers, it is exclusively dedicated to Synapse, and as such, can offer more focus.
 
 ** Dendrite
