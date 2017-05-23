@@ -193,6 +193,10 @@ Yes, this is a known metadata leak. Other than renaming your devices, there isn'
 
 Ironically, e2e encryption reduces privacy in some ways. Since Matrix e2e encrypts to each device separately, it needs to know which devices those are. This is a privacy vs. features tradeoff. Most competing encrypted messengers don't allow multiple devices.
 
+*** Who should I contact in case of abuse? :abuse:
+
+Contact [[https://matrix.to/#/@matthew:matrix.org][@matthew:matrix.org]] via Matrix, or send e-mail to abuse@matrix.org
+
 *** My question isn't answered here. Where can I ask for help?
 
 General Matrix questions can be asked in [[https://matrix.to/#/#matrix:matrix.org][#matrix:matrix.org]]. If you're building on top of Matrix, please join [[https://matrix.to/#/#matrix-dev:matrix.org][#matrix-dev:matrix.org]].
