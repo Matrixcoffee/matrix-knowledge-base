@@ -155,6 +155,10 @@ Riot-iOS has a dedicated room at [[https://matrix.to/#/#riot-ios:matrix.org][#ri
 | =/deop <@user_id:homeserver.domain>=             | reset user power level to the room default value                           |
 
 ** Synapse
+*** I or one of my users forgot their password. How can I reset it? :password:reset:
+
+See [[https://github.com/matrix-org/synapse/blob/master/README.rst#password-reset]]. (Do read the rest of the README. It is very complete and informative.)
+
 *** How do I enable the built-in web client?
 
 Don't. It's deprecated. Either use Riot at https://riot.im/app with a (your) custom server, or download a Riot tarball from [[https://github.com/vector-im/riot-web/releases]] and host it yourself.
