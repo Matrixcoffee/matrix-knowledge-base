@@ -192,6 +192,10 @@ Rooms will be listed here when Dendrite is usable.
 
 Unfortunately, no one can be told what the Matrix is. You have to see it for yourself.
 
+*** Who should I contact in case of abuse? :abuse:
+
+Contact [[https://matrix.to/#/@matthew:matrix.org][@matthew:matrix.org]] via Matrix, or send e-mail to abuse@matrix.org
+
 *** I can see everyone's devices! Isn't that a privacy issue?
 :PROPERTIES:
 :source:   https://matrix.to/#/#matrix:matrix.org/%241489661409560128pTiCo:matrix.org
@@ -201,9 +205,11 @@ Yes, this is a known metadata leak. Other than renaming your devices, there isn'
 
 Ironically, e2e encryption reduces privacy in some ways. Since Matrix e2e encrypts to each device separately, it needs to know which devices those are. This is a privacy vs. features tradeoff. Most competing encrypted messengers don't allow multiple devices.
 
-*** Who should I contact in case of abuse? :abuse:
+*** How does the "mxc://" protocol work?
 
-Contact [[https://matrix.to/#/@matthew:matrix.org][@matthew:matrix.org]] via Matrix, or send e-mail to abuse@matrix.org
+=mxc://<server>/<content>= is just shorthand for =https://<yourserver>/_matrix/media/v1/download/<server>/<content>=
+
+The spec is at [[https://matrix.org/docs/spec/client_server/r0.2.0.html#id43]].
 
 *** My question isn't answered here. Where can I ask for help?
 
