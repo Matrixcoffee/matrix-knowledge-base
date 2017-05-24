@@ -10,7 +10,7 @@ Questions about this FAQ and directory itself.
 
 *** What is this?
 
-This is at the moment both a FAQ and a directory for the Matrix ecosystem in the widest sense possible.
+This is a community-supported collection of FAQs and more on all things [[https://matrix.org][Matrix]]. Its primary use is to serve as botfood for a yet-to-be-written FAQbot, but it is also suitable for human consumption.
 
 *** What is it written in?
 
@@ -36,7 +36,7 @@ Yes. This document even links to it at the top of the Matrix section.
 *** So why another FAQ?
 
 - Knowledge about Matrix is scattered across many deep-linked documents. This KB brings them together in a comprehensive overview, and links to them.
-- This Knowledge Base is not merely a Matrix FAQ: it also has FAQs for some of its popular clients and tools, such as Riot. Moreover, it is also a directory, curating a wide spectrum of software which works with Matrix in one way or another.
+- This Knowledge Base is not merely a Matrix FAQ: it also has FAQs for some of its popular clients and tools, such as Riot, the IRC bridges, etc. All in one place.
 - Using the Org mode format with the Orgzly app lets me more easily curate the questions and answers on my mobile phone.
 - It is intended to eventually allow bidirectional conversion of (sections of) this KB, allowing one to wholly import external FAQs, work on them, and then contribute back, keeping everything in sync.
 - There are plans for a FAQbot. The Org mode format is very suitable for automatic processing, and one day a bot could be answering questions in Matrix rooms, drawing on this KB for its knowledge.
