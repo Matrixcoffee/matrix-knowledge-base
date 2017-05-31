@@ -225,6 +225,20 @@ General Matrix questions can be asked in [[https://matrix.to/#/#matrix:matrix.or
 
 [[https://matrix.org/blog/2017/03/14/an-adventure-in-irc-land/]] goes into detail about this.
 
+**** What is a bridge bot? @@html:<a name="bridge-bot">@@ :TESTME:
+
+On joining an IRC room for the first time, you should be invided by the bridge bot, to inform you that you have been bridged to IRC.
+
+The bot will inform you about changes in your IRC status,  and you can give it some commands to control your IRC session. Say =!help= to the bot to see a list of them.
+
+Be aware that every IRC network has its own bot, and you need to talk to the right one. See [[#bridged-networks]] for the list of IRC networks and the appropriate bridge bots.
+
+**** How do I join an IRC channel with a key? (+k) :key:TESTME:
+
+In a private conversation with the [[#bridge-bot][bridge bot]], say =!join [server] <#channel> <key>=.
+
+If this gives you an error =err_badchannelkey=, type =/markdown off= in the bridge bot room, and then try the =!join= command again.
+
 * Bridges
 ** Discord
 *** Half-Shot :fixme:
