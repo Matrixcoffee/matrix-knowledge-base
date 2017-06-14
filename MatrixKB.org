@@ -60,15 +60,9 @@ CORS errors are generally not actually anything to do with CORS, but hide a plai
 
 However, as plain errors don't have CORS headers, it gives this confusing warning.
 
-**** How can I change the language?
+**** What is the best way to contribute a translation? :i18n:fixme:
 
-This is not yet possible.
-
-**** What is the best way to contribute a translation? :i18n:
-
-Riot-Web currently lacks the infrastructure to support i18n, and as such, does not accept translations at this point in time.
-
-https://matrix.to/#/#riot:matrix.org/%241487935362359914vmevo:matrix.org has the latest word on it.
+This information is out of date.
 
 ***** [[https://matrix.to/#/@MTRNord:matrix.eclabs.de][MTRNord]] is currently working on adding the necessary i18n infrastructure:
 :PROPERTIES:
