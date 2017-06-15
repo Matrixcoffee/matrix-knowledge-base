@@ -11,7 +11,7 @@ This is a community-supported collection of FAQs and more on all things [Matrix]
 - Intended for both human consumption and automatic processing. [[more](MatrixKB.org#so-why-another-faq)]
 
 ## Contributing
-Unfortunately this project cannot accept questions, unless they come with a useful answer included. In the latter case, please make a PR or an issue on the tracker.
+Unfortunately this project cannot accept questions, unless they come with a useful answer included. If you have answers, please make a PR or an issue on the [tracker](https://github.com/Matrixcoffee/matrix-knowledge-base/issues).
 
 Remember that a bot will output your answers into a room. Try to keep them as simple and concise as possible. If something needs a longer, more detailed explanation, use a short explanation and a link. Prefer linking to existing resources, but don't be afraid to author new content if necessary.
 
@@ -21,7 +21,7 @@ Please join [#mkb:matrix.org](https://matrix.to/#/#matrix-knowledge-base:matrix.
 - Rendering
   - We also want a rendering for human consumption. It should be uncluttered and look good. See [#9](https://github.com/Matrixcoffee/matrix-knowledge-base/issues/9).
 - Licensing
-  - Currently Unlicense
+  - Currently Unlicense (Public Domain)
   - Is everyone OK with their words being grabbed from a room and published here as if public domain?
   - Is there a better license?
 - Answering open questions
