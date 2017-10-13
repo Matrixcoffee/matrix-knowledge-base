@@ -257,7 +257,7 @@ The official IRC network wishlist can be [[https://github.com/matrix-org/matrix-
 
 The software which runs the official [[https://matrix.org][matrix.org]]-hosted IRC bridges is at [[https://github.com/matrix-org/matrix-appservice-irc]].
 
-It has a Matrix room at [[https://matrix.to/#/#irc:matrix.org][#irc:matrix.org]] for both user questions and developer talk.
+It has a Matrix room at [[https://matrix.to/#/#irc:matrix.org][#irc:matrix.org]] for both user questions and developer talk. However, some of the questions you have might already be answered by the [[https://github.com/matrix-org/matrix-appservice-irc/wiki/End-user-FAQ][end user FAQ]].
 
 ** My question isn't answered here. Where can I ask for help?
 
