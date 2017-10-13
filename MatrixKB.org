@@ -229,6 +229,17 @@ If this gives you an error =err_badchannelkey=, type =/markdown off= in the brid
 - Site: https://github.com/turt2live/matrix-appservice-instagram
 - Availability: self-hosting required
 
+** Minecraft
+*** turt2live
+- Status: Pre-alpha
+- Site: https://github.com/turt2live/matrix-appservice-minecraft
+- Availability: self-hosting required
+
+*** paftree
+- Status: Pre-alpha
+- Site: https://github.com/paftree/matrixcraft-bridge
+- Availability: self-hosting required
+
 ** IRC
 *** Bridged Networks
 
