@@ -231,11 +231,13 @@ If this gives you an error =err_badchannelkey=, type =/markdown off= in the brid
 
 ** Minecraft
 *** turt2live
+
 - Status: Pre-alpha
 - Site: https://github.com/turt2live/matrix-appservice-minecraft
 - Availability: self-hosting required
 
 *** paftree
+
 - Status: Pre-alpha
 - Site: https://github.com/paftree/matrixcraft-bridge
 - Availability: self-hosting required
@@ -327,7 +329,10 @@ This code of conduct outlines our expectations for participants within the Matri
 The export of cryptographic technology and devices from the United States was severely restricted by U.S. law until 1992, but was gradually eased until 2000. Some restrictions still remain. https://en.wikipedia.org/wiki/Export_of_cryptography_from_the_United_States
 
 ** desktop app :missing:
-** e2e implementation guide :missing:
+** e2e implementation guide
+
+https://matrix.org/docs/guides/e2e_implementation.html
+
 ** emacs client
 
 See https://fort.kickass.systems/git/rrix/matrix-client.git
