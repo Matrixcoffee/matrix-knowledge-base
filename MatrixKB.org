@@ -145,13 +145,13 @@ Don't. It's deprecated. Either use Riot at https://riot.im/app with a (your) cus
 
 Forward extremities are dangling links in a room's DAG. They are known to seriously impact server performance when they accumulate. If you think you have a problem with forward extremities, please see https://github.com/matrix-org/synapse/issues/1760
 
-*** My question isn't answered here. Where can I ask for help?
+*** My Synapse question isn't answered here. Where can I ask for help? :morehelp:
 
-The designated place to ask questions about Synapse is [[https://matrix.to/#/#matrix:matrix.org][#matrix:matrix.org]], or if the questions are more technical, in [[https://matrix.to/#/#matrix-dev:matrix.org][#matrix-dev:matrix.org]].
+General help with setting up and configuring Synapse, as well as basic troubleshooting, can be had from [[https://matrix.to/#/#synapse-community:matrix.org][#synapse-community:matrix.org]]. This room is community-run and /not/ monitored by the Synapse team. Repeat: /not/.
+
+If you think you found a bug or need help from the Synapse developers, join [[https://matrix.to/#/#matrix:matrix.org][#matrix:matrix.org]]. Developer specific questions or issues are best taken to [[https://matrix.to/#/#matrix-dev:matrix.org][#matrix-dev:matrix.org]].
 
 It is also worth checking the [[https://github.com/matrix-org/synapse/issues][bug tracker]] to see if others are having the same problem.
-
-A community-run room also exists at [[https://matrix.to/#/#synapse-community:matrix.org][#synapse-community:matrix.org]]. Although the room doesn't have official backing from the Synapse developers, it is exclusively dedicated to Synapse, and as such, can offer more focus.
 
 ** Dendrite
 *** So what's the latest word on Dendrite?
