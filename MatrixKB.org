@@ -141,6 +141,10 @@ See [[https://github.com/matrix-org/synapse/blob/master/README.rst#password-rese
 
 Don't. It's deprecated. Either use Riot at https://riot.im/app with a (your) custom server, or download a Riot tarball from [[https://github.com/vector-im/riot-web/releases]] and host it yourself.
 
+*** What are forward extremities?
+
+Forward extremities are dangling links in a room's DAG. They are known to seriously impact server performance when they accumulate. If you think you have a problem with forward extremities, please see https://github.com/matrix-org/synapse/issues/1760
+
 *** My question isn't answered here. Where can I ask for help?
 
 The designated place to ask questions about Synapse is [[https://matrix.to/#/#matrix:matrix.org][#matrix:matrix.org]], or if the questions are more technical, in [[https://matrix.to/#/#matrix-dev:matrix.org][#matrix-dev:matrix.org]].
