@@ -193,6 +193,10 @@ Ironically, e2e encryption reduces privacy in some ways. Since Matrix e2e encryp
 
 The spec is at [[https://matrix.org/docs/spec/client_server/r0.2.0.html#id43]].
 
+*** What's the difference between a room and a direct chat?
+
+There is no real difference between the two. Direct (or private) chat is just a flag that causes clients such as Riot to treat these rooms specially. Some bridges may also handle them differently.
+
 *** My question isn't answered here. Where can I ask for help?
 
 General Matrix questions can be asked in [[https://matrix.to/#/#matrix:matrix.org][#matrix:matrix.org]]. If you're building on top of Matrix, please join [[https://matrix.to/#/#matrix-dev:matrix.org][#matrix-dev:matrix.org]].
