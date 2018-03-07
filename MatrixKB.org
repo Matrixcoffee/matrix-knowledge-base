@@ -244,7 +244,7 @@ If this gives you an error =err_badchannelkey=, type =/markdown off= in the brid
 **** Why am I seeing conversations with nonexistant people?
 DEADLINE: <2018-06-01 Fri>
 
-Matrix.org is overloaded by ever increasing traffic, making it unable to process joins fast enough. The team is working on making Synapse faster, but there's no easy quick fix.
+Matrix.org is overloaded by ever increasing traffic, making it unable to process joins fast enough. This is mainly affecting the Freenode bridge. The team is working on making Synapse faster, but there's no easy quick fix.
 
 * Bridges
 ** Discord
