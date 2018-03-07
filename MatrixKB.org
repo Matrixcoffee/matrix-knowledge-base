@@ -209,6 +209,10 @@ You probably have an account on matrix.org. Presence on matrix.org accounts is d
 
 Your friends probably have an account on matrix.org. Presence on matrix.org accounts is disabled because the server is suffering from high load. Your best bet is to look at the list of public homeservers and get everyone to set up an account on a different server.
 
+*** Is there a list of public matrix servers? :public:servers:
+
+Yes. It can be found at [[https://www.hello-matrix.net/public_servers.php]]. If you have questions or comments about the list, please join #hello-matrix:matrix.org.
+
 *** My question isn't answered here. Where can I ask for help?
 
 General Matrix questions can be asked in [[https://matrix.to/#/#matrix:matrix.org][#matrix:matrix.org]]. If you're building on top of Matrix, please join [[https://matrix.to/#/#matrix-dev:matrix.org][#matrix-dev:matrix.org]].
@@ -496,7 +500,6 @@ https://matrix.to/#/!cURbafjkfsMDVwdRDQ:matrix.org/%2414902634851380909LwydX:mat
 
 https://matrix.to/#/#matrix:matrix.org/%2414902578321344171PDCNZ:matrix.org
 
-** Add #hello-matrix:matrix.org and hello-matrix.net
 ** I found the icons missing after the nginx reverse proxy, any sample nginx config for riot-web?
 
 FYI. It caused by X-Frame-Options set to deny. Now I use the SAMEORIGIN and problem solved.
