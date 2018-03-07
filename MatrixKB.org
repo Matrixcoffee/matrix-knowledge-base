@@ -201,6 +201,14 @@ The spec is at [[https://matrix.org/docs/spec/client_server/r0.2.0.html#id43]].
 
 There is no real difference between the two. Direct (or private) chat is just a flag that causes clients such as Riot to treat these rooms specially. Some bridges may also handle them differently.
 
+*** Why am I showing as offline?
+
+You probably have an account on matrix.org. Presence on matrix.org accounts is disabled because the server is suffering from high load. Your best bet is to look at the list of public homeservers and get an account on a different server.
+
+*** Why are my friends showing as offline?
+
+Your friends probably have an account on matrix.org. Presence on matrix.org accounts is disabled because the server is suffering from high load. Your best bet is to look at the list of public homeservers and get everyone to set up an account on a different server.
+
 *** My question isn't answered here. Where can I ask for help?
 
 General Matrix questions can be asked in [[https://matrix.to/#/#matrix:matrix.org][#matrix:matrix.org]]. If you're building on top of Matrix, please join [[https://matrix.to/#/#matrix-dev:matrix.org][#matrix-dev:matrix.org]].
