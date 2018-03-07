@@ -225,6 +225,11 @@ In a private conversation with the [[#bridge-bot][bridge bot]], say =!join [serv
 
 If this gives you an error =err_badchannelkey=, type =/markdown off= in the bridge bot room, and then try the =!join= command again.
 
+**** Why am I seeing conversations with nonexistant people?
+DEADLINE: <2018-06-01 Fri>
+
+Matrix.org is overloaded by ever increasing traffic, making it unable to process joins fast enough. The team is working on making Synapse faster, but there's no easy quick fix.
+
 * Bridges
 ** Discord
 *** Half-Shot :fixme:
