@@ -110,6 +110,10 @@ Tip: Android Studio has a
 - [[https://github.com/vector-im/riot-android/pull/660][#660 add portugese language]]
 - [[https://github.com/vector-im/riot-android/issues/357][#357 Internationalise vector]]
 
+**** How do push notifications work on Android?
+
+A document explaining this in detail can be found at [[https://github.com/vector-im/riot-android/blob/develop/docs/notifications.md]]
+
 **** My question isn't answered here. Where can I ask for help?
 
 Riot-Android version has a dedicated room at [[https://matrix.to/#/#riot-android:matrix.org][#riot-android:matrix.org]] for both user questions and developer talk.
