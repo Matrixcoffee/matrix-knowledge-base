@@ -70,6 +70,10 @@ The built-in screen sharing feature can be activated by shift-clicking on the vi
 
 You can also add a jitsi widget to the room and do screen sharing that way.
 
+**** How can I change my displayname in one room only, using devtools? :per-room:
+
+There is a graphical walkthrough on how to change your displayname in a single room at [[https://vault.webdevguru.co.uk/Matrix/per-room-nickname/]].
+
 **** My question isn't answered here. Where can I ask for help?
 
 The Web and Desktop versions of Riot have a dedicated room at [[https://matrix.to/#/#riot:matrix.org][#riot:matrix.org]] for user questions. Please note that this is also the place for general issues which encompass _all_ Riot platforms. (Web, Desktop, Android, iOS.)
