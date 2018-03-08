@@ -64,6 +64,12 @@ However, as plain errors don't have CORS headers, it gives this confusing warnin
 
 Matrix and Riot use Weblate as a platform to contribute translations, this platform is available at [[https://translate.riot.im][https://translate.riot.im]]. There is also a channel dedicated to everything regarding translations, you can find it at [[https://matrix.to/#/#riotweb-translations:matrix.org][#riotweb-translations:matrix.org]].
 
+**** How do I enable screen sharing?
+
+The built-in screen sharing feature can be activated by shift-clicking on the video call button. Note that the feature is currently a proof-of-concept, and deliberately somewhat hidden.  
+
+You can also add a jitsi widget to the room and do screen sharing that way.
+
 **** My question isn't answered here. Where can I ask for help?
 
 The Web and Desktop versions of Riot have a dedicated room at [[https://matrix.to/#/#riot:matrix.org][#riot:matrix.org]] for user questions. Please note that this is also the place for general issues which encompass _all_ Riot platforms. (Web, Desktop, Android, iOS.)
