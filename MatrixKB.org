@@ -246,6 +246,11 @@ DEADLINE: <2018-06-01 Fri>
 
 Matrix.org is overloaded by ever increasing traffic, making it unable to process joins fast enough. This is mainly affecting the Freenode bridge. The team is working on making Synapse faster, but there's no easy quick fix.
 
+*** General
+**** How To Ask Questions The Smart Way?
+
+If you'd like to get better answers to your questions, sometimes even without asking, take some time to read [[http://www.catb.org/esr/faqs/smart-questions.html][How To Ask Questions The Smart Way]].
+
 * Bridges
 ** Discord
 *** Half-Shot :fixme:
