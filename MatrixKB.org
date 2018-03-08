@@ -159,6 +159,10 @@ Don't. It's deprecated. Either use Riot at https://riot.im/app with a (your) cus
 
 Forward extremities are dangling links in a room's DAG. They are known to seriously impact server performance when they accumulate. If you think you have a problem with forward extremities, please see https://github.com/matrix-org/synapse/issues/1760
 
+*** What is the recommended setup for Synapse?
+
+The recommended way to set up Synapse is discussed and clarified in [[https://github.com/matrix-org/synapse/issues/2438]].
+
 *** My Synapse question isn't answered here. Where can I ask for help? :morehelp:
 
 General help with setting up and configuring Synapse, as well as basic troubleshooting, can be had from [[https://matrix.to/#/#synapse-community:matrix.org][#synapse-community:matrix.org]]. This room is community-run and /not/ monitored by the Synapse team. Repeat: /not/.
