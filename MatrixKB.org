@@ -223,6 +223,10 @@ Your friends probably have an account on matrix.org. Presence on matrix.org acco
 
 Yes. It can be found at [[https://www.hello-matrix.net/public_servers.php]]. If you have questions or comments about the list, please join #hello-matrix:matrix.org.
 
+*** What is Try Matrix Now?
+
+Try Matrix Now is a global directory of projects using Matrix in some way. It can be found at [[https://matrix.org/docs/projects/try-matrix-now.html]].
+
 *** My question isn't answered here. Where can I ask for help?
 
 General Matrix questions can be asked in [[https://matrix.to/#/#matrix:matrix.org][#matrix:matrix.org]]. If you're building on top of Matrix, please join [[https://matrix.to/#/#matrix-dev:matrix.org][#matrix-dev:matrix.org]].
