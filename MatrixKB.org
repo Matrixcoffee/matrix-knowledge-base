@@ -146,6 +146,10 @@ Riot-iOS has a dedicated room at [[https://matrix.to/#/#riot-ios:matrix.org][#ri
 | =/op <@user_id:homeserver.domain> <power_level>= | set the user power level                                                   |
 | =/deop <@user_id:homeserver.domain>=             | reset user power level to the room default value                           |
 
+*** What are Riots Terms and Conditions? :t&c:
+
+Riot's Terms of Use can be found at [[https://riot.im/tac]]. Questions requiring an authoritative legal answer can be sent to the appropriate contact mentioned on that page.
+
 ** Synapse
 *** I or one of my users forgot their password. How can I reset it? :password:reset:
 
