@@ -235,7 +235,7 @@ Yes. It can be found at [[https://www.hello-matrix.net/public_servers.php]]. If 
 
 Try Matrix Now is a global directory of projects using Matrix in some way. It can be found at [[https://matrix.org/docs/projects/try-matrix-now.html]].
 
-** How can I add my project to Try Matrix Now?
+*** How can I add my project to Try Matrix Now?
 
 To add your project, make a copy of the [[https://github.com/matrix-org/matrix.org/blob/master/jekyll/_posts/projects/template.md][template]] and give it the name of your project prefixed with today's date. For some reason jekyll is picky about file names, so make sure it meshes with the rest of the files.
 
