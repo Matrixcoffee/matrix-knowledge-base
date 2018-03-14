@@ -41,6 +41,12 @@ Yes. This document even links to it at the top of the Matrix section.
 - It is intended to eventually allow bidirectional conversion of (sections of) this KB, allowing one to wholly import external FAQs, work on them, and then contribute back, keeping everything in sync.
 - There are plans for a FAQbot. The Org mode format is very suitable for automatic processing, and one day a bot could be answering questions in Matrix rooms, drawing on this KB for its knowledge.
 
+*** How can I add questions to the FAQ?
+
+Good: Visit [[https://github.com/Matrixcoffee/matrix-knowledge-base/edit/master/MatrixKB.org]]. When editing manually, please make sure to obey the org-mode format, including white space and newlines in the right places.
+
+Better: =git clone https://github.com/Matrixcoffee/matrix-knowledge-base.git=, and use a proper org-mode editor. Maybe even emacs.
+
 *** I have questions or suggestions for this FAQ itself. Where can I go to talk to a human?
 
 The Matrix Knowledge Base has a dedicated room at [[https://matrix.to/#/#mkb:matrix.org][#matrix-knowledge-base:matrix.org]]. This room is not for general Matrix questions. For those, see the rest of this FAQ.
