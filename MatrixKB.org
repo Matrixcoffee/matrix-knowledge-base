@@ -241,6 +241,10 @@ To add your project, make a copy of the [[https://github.com/matrix-org/matrix.o
 
 Now fill in the details and send a pull request to have it added to Try Matrix Now. (And to FAQBot.)
 
+*** Is this the right place to ask about GSoC? :GSoC:
+
+Try #gsoc:matrix.org
+
 *** My question isn't answered here. Where can I ask for help?
 
 General Matrix questions can be asked in [[https://matrix.to/#/#matrix:matrix.org][#matrix:matrix.org]]. If you're building on top of Matrix, please join [[https://matrix.to/#/#matrix-dev:matrix.org][#matrix-dev:matrix.org]].
