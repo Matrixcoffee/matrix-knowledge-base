@@ -255,6 +255,40 @@ Try #gsoc:matrix.org
 
 Test your server by appending its domain to: https://matrix.org/federationtester/api/report?server_name=
 
+*** How can I delete my account?
+
+You cannot fully delete your account. It can only be deactivated.
+
+Before you do so, it is best that you manually set yourself back to user in any rooms you have admin rights in.
+
+Once that is done, you should leave all rooms manually.
+
+Deactivating your account will not do that, and leave your user hanging.
+
+If you are in any rooms which are bridged to irc, your irc counterpart will continue to be connected to irc for a good long while.
+
+And there's nothing you can do, because your account is deactivated.
+
+Let's repeat that for effect:
+
+DEACTIVATING YOUR ACCOUNT WILL LEAVE YOUR USER HANGING IN ALL ROOMS INCLUDING THOSE BRIDGED TO IRC
+
+Whew. In summary, leave all rooms first. Everyone will thank you, including your future self.
+
+*** Why can't I delete my account?
+
+If your account is fully deleted from the server it is registered on, a new person could then re-register it, and gain all the priviledges that still remain in the network.
+
+This includes access to all of your message history, and administrator and moderator priviledges if you had any.
+
+The new person could also simply try to impersonate you.
+
+It's a bit like changing the locks when you move into a new home.
+
+Sure you could re-use the key. But what if the previous owner kept a copy?
+
+Your account is the key to your personal data, and that's why it must never be re-used.
+
 *** My question isn't answered here. Where can I ask for help?
 
 General Matrix questions can be asked in [[https://matrix.to/#/#matrix:matrix.org][#matrix:matrix.org]]. If you're building on top of Matrix, please join [[https://matrix.to/#/#matrix-dev:matrix.org][#matrix-dev:matrix.org]].
