@@ -360,7 +360,6 @@ https://matrix.org/docs/guides/e2e_implementation.html
 
 ** id :missing:
 ** identity server :missing:
-** irc network list :missing:
 
 ** matrix on freenode :missing:
 
