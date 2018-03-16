@@ -206,6 +206,10 @@ Unfortunately, no one can be told what the Matrix is. You have to see it for you
 
 Send e-mail to abuse@matrix.org
 
+*** Who should I contact about security issues? :security:
+
+Send e-mail to _security_ _@_ _matrix.org_
+
 *** I can see everyone's devices! Isn't that a privacy issue?
 :PROPERTIES:
 :source:   https://matrix.to/#/#matrix:matrix.org/%241489661409560128pTiCo:matrix.org
