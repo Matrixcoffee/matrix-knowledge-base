@@ -251,6 +251,10 @@ Now fill in the details and send a pull request to have it added to Try Matrix N
 
 Try #gsoc:matrix.org
 
+*** How can I test whether my server is properly set up for federation? :federation:tester:
+
+Test your server by appending its domain to: https://matrix.org/federationtester/api/report?server_name=
+
 *** My question isn't answered here. Where can I ask for help?
 
 General Matrix questions can be asked in [[https://matrix.to/#/#matrix:matrix.org][#matrix:matrix.org]]. If you're building on top of Matrix, please join [[https://matrix.to/#/#matrix-dev:matrix.org][#matrix-dev:matrix.org]].
@@ -351,9 +355,6 @@ The export of cryptographic technology and devices from the United States was se
 https://matrix.org/docs/guides/e2e_implementation.html
 
 ** exul slides :missing:
-** federation tester
-
-Test your server by appending its domain to: http://matrix.org/federationtester/api/report?server_name=
 
 ** gc :missing:
 
