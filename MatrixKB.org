@@ -284,6 +284,22 @@ DEADLINE: <2018-06-01 Fri>
 
 Matrix.org is overloaded by ever increasing traffic, making it unable to process joins fast enough. This is mainly affecting the Freenode bridge. The team is working on making Synapse faster, but there's no easy quick fix.
 
+**** Where is the list of bridged IRC networks?
+
+The community-maintained list is [[https://github.com/matrix-org/matrix-appservice-irc/wiki/Bridged-IRC-networks][on the wiki]].
+
+The /official/ IRC network (wish)list can be [[https://github.com/matrix-org/matrix-appservice-irc/issues/208][found here]].
+
+**** Where is the official IRC network bridging wishlist?
+
+The official IRC network wishlist can be [[https://github.com/matrix-org/matrix-appservice-irc/issues/208][found here]].
+
+**** Where can I get help with IRC bridges?
+
+Irc bridges have a dedicated room at [[https://matrix.to/#/#irc:matrix.org][#irc:matrix.org]] for both user questions and developer talk.
+
+All other bridges can be discussed at [[https://matrix.to/#/#bridges:matrix.org][#bridges:matrix.org]].
+
 *** General
 **** How To Ask Questions The Smart Way?
 
@@ -305,20 +321,6 @@ If you'd like to get better answers to your questions, sometimes even without as
 | Rizon     | =#_rizon_#channame:matrix.org=    |                                 | =@rizon-irc:matrix.org=           |                              |
 | EsperNet  | =#_espernet_#channame:matrix.org= |                                 | =@espernet-irc:matrix.org=        |                              |
 | PirateIRC | =#pirateirc_#channame:diasp.in=   |                                 | =@pirateirc:diasp.in=             | Hosted by Pirate Party India |
-
-Another nice-looking list is [[https://github.com/matrix-org/matrix-appservice-irc/wiki/Bridged-IRC-networks][on the wiki]].
-
-The /official/ IRC network (wish)list can be [[https://github.com/matrix-org/matrix-appservice-irc/issues/208][found here]].
-
-*** Non-bridged networks (wishlist)
-
-The official IRC network wishlist can be [[https://github.com/matrix-org/matrix-appservice-irc/issues/208][found here]].
-
-** My question isn't answered here. Where can I ask for help?
-
-Irc bridges have a dedicated room at [[https://matrix.to/#/#irc:matrix.org][#irc:matrix.org]] for both user questions and developer talk.
-
-All other bridges can be discussed at [[https://matrix.to/#/#bridges:matrix.org][#bridges:matrix.org]].
 
 * Keywords (old, to be reworked)
 
