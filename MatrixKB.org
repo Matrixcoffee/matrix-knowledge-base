@@ -219,7 +219,7 @@ Ironically, e2e encryption reduces privacy in some ways. Since Matrix e2e encryp
 
 =mxc://<server>/<content>= is just shorthand for =https://<yourserver>/_matrix/media/v1/download/<server>/<content>=
 
-The spec is at [[https://matrix.org/docs/spec/client_server/r0.2.0.html#id43]].
+The spec is at [[https://matrix.org/docs/spec/client_server/r0.3.0.html#id67]].
 
 *** What's the difference between a room and a direct chat?
 
