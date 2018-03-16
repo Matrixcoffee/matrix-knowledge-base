@@ -204,7 +204,7 @@ Unfortunately, no one can be told what the Matrix is. You have to see it for you
 
 *** Who should I contact in case of abuse? :abuse:
 
-Send e-mail to abuse@matrix.org
+Send e-mail to _abuse_ _@_ _matrix.org_
 
 *** Who should I contact about security issues? :security:
 
