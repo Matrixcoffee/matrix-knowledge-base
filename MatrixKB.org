@@ -47,7 +47,7 @@ Good: Visit [[https://github.com/Matrixcoffee/matrix-knowledge-base/edit/master/
 
 Better: =git clone https://github.com/Matrixcoffee/matrix-knowledge-base.git=, and use a proper org-mode editor. Maybe even emacs.
 
-*** I have questions or suggestions for this FAQ itself. Where can I go to talk to a human?
+*** I have questions or suggestions for this FAQ itself. Where can I go to talk to a human? :_lastresort:
 
 The Matrix Knowledge Base has a dedicated room at [[https://matrix.to/#/#mkb:matrix.org][#matrix-knowledge-base:matrix.org]]. This room is not for general Matrix questions. For those, see the rest of this FAQ.
 
@@ -76,11 +76,11 @@ The built-in screen sharing feature can be activated by shift-clicking on the vi
 
 You can also add a jitsi widget to the room and do screen sharing that way.
 
-**** How can I change my displayname in one room only, using devtools? :per-room:
+**** How can I change my displayname in one room only, using devtools? :per_room:
 
 There is a graphical walkthrough on how to change your displayname in a single room at [[https://vault.webdevguru.co.uk/Matrix/per-room-nickname/]].
 
-**** My question isn't answered here. Where can I ask for help?
+**** My question isn't answered here. Where can I ask for help? :_lastresort:
 
 The Web and Desktop versions of Riot have a dedicated room at [[https://matrix.to/#/#riot:matrix.org][#riot:matrix.org]] for user questions. Please note that this is also the place for general issues which encompass _all_ Riot platforms. (Web, Desktop, Android, iOS.)
 
@@ -126,16 +126,16 @@ Tip: Android Studio has a
 - [[https://github.com/vector-im/riot-android/pull/660][#660 add portugese language]]
 - [[https://github.com/vector-im/riot-android/issues/357][#357 Internationalise vector]]
 
-**** How do push notifications work on Android?
+**** How do push notifications work on Android? :push:
 
 A document explaining this in detail can be found at [[https://github.com/vector-im/riot-android/blob/develop/docs/notifications.md]]
 
-**** My question isn't answered here. Where can I ask for help?
+**** My question isn't answered here. Where can I ask for help? :_lastresort:
 
 Riot-Android version has a dedicated room at [[https://matrix.to/#/#riot-android:matrix.org][#riot-android:matrix.org]] for both user questions and developer talk.
 
 *** iOS :ios:
-**** My question isn't answered here. Where can I ask for help?
+**** My question isn't answered here. Where can I ask for help? :_lastresort:
 
 Riot-iOS has a dedicated room at [[https://matrix.to/#/#riot-ios:matrix.org][#riot-ios:matrix.org]] for both user questions and developer talk.
 
@@ -152,11 +152,11 @@ Riot-iOS has a dedicated room at [[https://matrix.to/#/#riot-ios:matrix.org][#ri
 | =/op <@user_id:homeserver.domain> <power_level>= | set the user power level                                                   |
 | =/deop <@user_id:homeserver.domain>=             | reset user power level to the room default value                           |
 
-*** What are Riots Terms and Conditions? :t&c:
+*** What are Riots Terms and Conditions? :tac:
 
 Riot's Terms of Use can be found at [[https://riot.im/tac]]. Questions requiring an authoritative legal answer can be sent to the appropriate contact mentioned on that page.
 
-** Synapse
+** Synapse :synapse:
 *** I or one of my users forgot their password. How can I reset it? :password:reset:
 
 See [[https://github.com/matrix-org/synapse/blob/master/README.rst#password-reset]]. (Do read the rest of the README. It is very complete and informative.)
@@ -165,7 +165,7 @@ See [[https://github.com/matrix-org/synapse/blob/master/README.rst#password-rese
 
 Don't. It's deprecated. Either use Riot at https://riot.im/app with a (your) custom server, or download a Riot tarball from [[https://github.com/vector-im/riot-web/releases]] and host it yourself.
 
-*** What are forward extremities?
+*** What are forward extremities? :extremities:
 
 Forward extremities are dangling links in a room's DAG. They are known to seriously impact server performance when they accumulate. If you think you have a problem with forward extremities, please see https://github.com/matrix-org/synapse/issues/1760
 
@@ -173,7 +173,7 @@ Forward extremities are dangling links in a room's DAG. They are known to seriou
 
 The recommended way to set up Synapse is discussed and clarified in [[https://github.com/matrix-org/synapse/issues/2438]].
 
-*** My Synapse question isn't answered here. Where can I ask for help? :morehelp:
+*** My Synapse question isn't answered here. Where can I ask for help? :_lastresort:
 
 General help with setting up and configuring Synapse, as well as basic troubleshooting, can be had from [[https://matrix.to/#/#synapse-community:matrix.org][#synapse-community:matrix.org]]. This room is community-run and /not/ monitored by the Synapse team. Repeat: /not/.
 
@@ -181,7 +181,7 @@ If you think you found a bug or need help from the Synapse developers, join [[ht
 
 It is also worth checking the [[https://github.com/matrix-org/synapse/issues][bug tracker]] to see if others are having the same problem.
 
-** Dendrite
+** Dendrite :dendrite:
 *** So what's the latest word on Dendrite?
 :PROPERTIES:
 :Source:   https://twitter.com/matrixdotorg/status/841814171666808833
@@ -189,7 +189,7 @@ It is also worth checking the [[https://github.com/matrix-org/synapse/issues][bu
 
 Exciting times - Dendrite (the next generation Golang matrix server) just received its first messages!! https://matrix.org/blog/2017/03/15/dendrite-receives-its-first-messages/ #golang
 
-*** My question isn't answered here. Where can I ask for help?
+*** My question isn't answered here. Where can I ask for help? :_lastresort:
 
 Rooms will be listed here when Dendrite is usable.
 
@@ -259,7 +259,7 @@ Try #gsoc:matrix.org
 
 Test your server by appending its domain to: https://matrix.org/federationtester/api/report?server_name=
 
-*** How can I delete my account?
+*** How can I delete my account? :delete:account:
 
 You cannot fully delete your account. It can only be deactivated.
 
@@ -293,16 +293,16 @@ Sure you could re-use the key. But what if the previous owner kept a copy?
 
 Your account is the key to your personal data, and that's why it must never be re-used.
 
-*** My question isn't answered here. Where can I ask for help?
+*** My question isn't answered here. Where can I ask for help? :_lastresort:
 
 General Matrix questions can be asked in [[https://matrix.to/#/#matrix:matrix.org][#matrix:matrix.org]]. If you're building on top of Matrix, please join [[https://matrix.to/#/#matrix-dev:matrix.org][#matrix-dev:matrix.org]].
 
-** Bridges
+** Bridges :bridge:
 *** What's a plumbed room? What's a portal room? What types of bridges are there? @@html:<a name="bridge-types">@@ :plumbed:portal:puppet:
 
 [[https://matrix.org/blog/2017/03/11/how-do-i-bridge-thee-let-me-count-the-ways/]] has a detailed overview.
 
-*** IRC
+*** IRC :irc:
 **** How does this whole IRC bridging thing work? @@html:<a name="bridging-irc">@@
 
 [[https://matrix.org/blog/2017/03/14/an-adventure-in-irc-land/]] goes into detail about this.
@@ -336,7 +336,7 @@ The /official/ IRC network (wish)list can be [[https://github.com/matrix-org/mat
 
 The official IRC network wishlist can be [[https://github.com/matrix-org/matrix-appservice-irc/issues/208][found here]].
 
-**** Where can I get help with IRC bridges?
+**** Where can I get help with IRC bridges? :_lastresort:
 
 Irc bridges have a dedicated room at [[https://matrix.to/#/#irc:matrix.org][#irc:matrix.org]] for both user questions and developer talk.
 
@@ -377,7 +377,7 @@ In the context of Matrix, any identifier which is not a Matrix ID. This includes
 
 [Slides] Matthew talks about the challenge of balancing interoperability and privacy: https://matrix.org/~matthew/2016-12-22%20Matrix%20Balancing%20Interop%20and%20Privacy.pdf
 
-** What is the Matrix Code of Conduct?
+** What is the Matrix Code of Conduct? :code:conduct:
 
 This code of conduct outlines our expectations for participants within the Matrix community, as well as steps for reporting unacceptable behaviour. We are committed to providing a welcoming and inspiring community for all, and expect our code of conduct to be honoured. Anyone who violates this code of conduct may be banned from the community.
 
