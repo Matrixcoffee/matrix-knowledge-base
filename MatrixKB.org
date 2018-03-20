@@ -343,6 +343,16 @@ The official IRC network wishlist can be [[https://github.com/matrix-org/matrix-
 
 You can force the bridge to disconnect you from IRC by saying !quit to the bridge bot. Take note that this will kick you from all rooms that are bridged to that irc network. This might include rooms you didn't even realize were bridged to irc.
 
+**** How do I talk to NickServ? :nickserv:
+
+Firstly, look up which of the NickServs you want to talk to in the [[https://github.com/matrix-org/matrix-appservice-irc/issues/208][list of bridged networks]].
+
+For example, for Freenode this would be @freenode_nickserv:matrix.org.
+
+Then you should invite it for a private chat, wait until it joins, and just talk to it. Try saying "help".
+
+*Important*: You must not write =/msg NickServ= in front of the commands, as you are not using an IRC client but a Matrix client!
+
 **** Where can I get help with IRC bridges? :_lastresort:
 
 Irc bridges have a dedicated room at [[https://matrix.to/#/#irc:matrix.org][#irc:matrix.org]] for both user questions and developer talk.
