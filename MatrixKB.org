@@ -336,6 +336,13 @@ The /official/ IRC network (wish)list can be [[https://github.com/matrix-org/mat
 
 The official IRC network wishlist can be [[https://github.com/matrix-org/matrix-appservice-irc/issues/208][found here]].
 
+**** How do I disconnect from IRC? :disconnect:quit:
+:PROPERTIES:
+:alts:     How do I quit IRC?
+:END:
+
+You can force the bridge to disconnect you from IRC by saying !quit to the bridge bot. Take note that this will kick you from all rooms that are bridged to that irc network. This might include rooms you didn't even realize were bridged to irc.
+
 **** Where can I get help with IRC bridges? :_lastresort:
 
 Irc bridges have a dedicated room at [[https://matrix.to/#/#irc:matrix.org][#irc:matrix.org]] for both user questions and developer talk.
