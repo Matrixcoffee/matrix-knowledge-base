@@ -202,6 +202,8 @@ Rooms will be listed here when Dendrite is usable.
 
 Unfortunately, no one can be told what the Matrix is. You have to see it for yourself.
 
+That said, see [[https://matrix.org]] for an attempt at explaining it.
+
 *** Who should I contact in case of abuse? :abuse:
 
 Send e-mail to _abuse_ _@_ _matrix.org_
