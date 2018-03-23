@@ -80,9 +80,11 @@ You can also add a jitsi widget to the room and do screen sharing that way.
 
 There is a graphical walkthrough on how to change your displayname in a single room at [[https://vault.webdevguru.co.uk/Matrix/per-room-nickname/]].
 
-**** My question isn't answered here. Where can I ask for help? :_lastresort:
+**** Where can I get help with Riot? :_lastresort:
 
-The Web and Desktop versions of Riot have a dedicated room at [[https://matrix.to/#/#riot:matrix.org][#riot:matrix.org]] for user questions. Please note that this is also the place for general issues which encompass _all_ Riot platforms. (Web, Desktop, Android, iOS.)
+There is an official page with video instructions and FAQ at [[https://about.riot.im/need-help/]].
+
+If that doesn't answer your question, the Web and Desktop versions of Riot have a dedicated room at [[https://matrix.to/#/#riot:matrix.org][#riot:matrix.org]] for user questions. It is also the place for general issues which encompass _all_ Riot platforms. (Web, Desktop, Android, iOS.)
 
 Developers coordinate their efforts in [[https://matrix.to/#/#riot-dev:matrix.org][#riot-dev:matrix.org]].
 
