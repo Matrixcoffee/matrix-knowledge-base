@@ -66,6 +66,8 @@ CORS errors are generally not actually anything to do with CORS, but hide a plai
 
 However, as plain errors don't have CORS headers, it gives this confusing warning.
 
+That said, CORS errors often happen because some plugin is blocking Riot's requests. For example Noscript, Umatrix or Privacy Badger.
+
 **** What is the best way to contribute a translation? :i18n:fixme:
 
 Matrix and Riot use Weblate as a platform to contribute translations, this platform is available at [[https://translate.riot.im][https://translate.riot.im]]. There is also a channel dedicated to everything regarding translations, you can find it at [[https://matrix.to/#/#riotweb-translations:matrix.org][#riotweb-translations:matrix.org]].
