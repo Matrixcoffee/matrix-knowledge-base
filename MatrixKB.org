@@ -57,7 +57,7 @@ The Matrix Knowledge Base has a dedicated room at [[https://matrix.to/#/#mkb:mat
 
 There is a fairly thorough guide at [[https://forum.disroot.org/t/matrix-riots-usage-basics/947]]. Although it is targeted at disroot users, most of it applies to Riot Web/Desktop in general. You could even just go and get yourself a disroot account.
 
-**** I'm getting CORS errors. What's wrong? :CORS:
+**** Why am I getting 'CORS request rejected' errors? :CORS:CORS_request_rejected:
 :PROPERTIES:
 :source:   https://matrix.to/#/!DgvjtOljKujDBrxyHk:matrix.org/%2414899602502111244BtYeL:matrix.org
 :END:
