@@ -177,6 +177,10 @@ Forward extremities are dangling links in a room's DAG. They are known to seriou
 
 The recommended way to set up Synapse is discussed and clarified in [[https://github.com/matrix-org/synapse/issues/2438]].
 
+*** I tried to join Matrix HQ. Why is my server dying? :HQ:
+
+#matrix:matrix.org or Matrix HQ as it's often called, is one of the biggest and oldest rooms in Matrix. It is full of quirks and old, dead servers which your server is all going to try and contact. It is also just plain Big. In short, joining HQ is one of the most extreme real-world stress tests you can put your server through.
+
 *** My Synapse question isn't answered here. Where can I ask for help? :_lastresort:
 
 General help with setting up and configuring Synapse, as well as basic troubleshooting, can be had from [[https://matrix.to/#/#synapse-community:matrix.org][#synapse-community:matrix.org]]. This room is community-run and /not/ monitored by the Synapse team. Repeat: /not/.
