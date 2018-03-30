@@ -251,9 +251,9 @@ You probably have an account on matrix.org. Presence on matrix.org accounts is d
 
 Your friends probably have an account on matrix.org. Presence on matrix.org accounts is disabled because the server is suffering from high load. Your best bet is to look at the list of public matrix servers and get everyone to set up an account on a different server.
 
-*** Is there a list of public matrix servers? :public:servers:
+*** Where is the list of public matrix servers? :public:servers:
 
-Yes. It can be found at [[https://www.hello-matrix.net/public_servers.php]]. If you have questions or comments about the list, please join #hello-matrix:matrix.org.
+An unofficial list of public matrix servers can be found at [[https://www.hello-matrix.net/public_servers.php]]. If you have questions or comments about the list, please join #hello-matrix:matrix.org.
 
 *** What is Try Matrix Now?
 
