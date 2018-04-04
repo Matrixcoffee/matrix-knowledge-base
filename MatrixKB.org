@@ -164,6 +164,10 @@ Riot's Terms of Use can be found at [[https://riot.im/tac]]. Questions requiring
 
 TL;DR In public rooms, you can't. To enable in private chat, go to settings and flick the encryption setting to on. This cannot be undone.
 
+*** Why can't I search in e2e encrypted rooms? :e2e:encryption:search:
+
+Searching is done by the server. Since e2e messages cannot be decrypted by the server, they cannot be searched either.
+
 ** Synapse :synapse:
 *** I or one of my users forgot their password. How can I reset it? :password:reset:
 
