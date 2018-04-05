@@ -315,6 +315,35 @@ Your account is the key to your personal data, and that's why it must never be r
 
 General Matrix questions can be asked in [[https://matrix.to/#/#matrix:matrix.org][#matrix:matrix.org]]. If you're building on top of Matrix, please join [[https://matrix.to/#/#matrix-dev:matrix.org][#matrix-dev:matrix.org]].
 
+*** Crypto :crypto:e2e:
+**** What is Olm? :olm:
+
+Olm is a [[https://en.wikipedia.org/wiki/Double_Ratchet_Algorithm][Double Ratchet Algorithm]] used to encrypt communications between two endpoints. Please note that Megolm, not Olm, is used in Matrix, even in private chats between two people. For more information about Olm, see the [[https://matrix.org/docs/spec/olm.html][Olm spec]].
+
+**** What is Megolm? :megolm:
+
+Megolm is a group ratchet encryption protocol for communication between two or more parties, built on top of Olm. If you are using crypto in in your favourite glossy Matrix client, you are using Megolm. For more information about Megolm, see the [[https://matrix.org/docs/spec/megolm.html][Megolm spec]].
+
+**** Has Olm been cryptographically reviewed? :review:
+
+Yes, the [[https://www.nccgroup.trust/us/][NCC Group]] have reviewed libolm version 1.3.0. The [[https://www.nccgroup.trust/globalassets/our-research/us/public-reports/2016/november/ncc_group_olm_cryptogrpahic_review_2016_11_01.pdf][olm cryptographic review]] was [[https://www.nccgroup.trust/us/our-research/matrix-olm-cryptographic-review/][published]] on 18 November 2016. This review was funded by the [[https://www.opentech.fund/][Open Technology Fund]].
+
+**** How can I add e2e support to my own project? :implementation:
+
+Please consult the [[https://matrix.org/docs/guides/e2e_implementation.html][Official e2e implementation guide]].
+
+**** Can you give me more background on matrix e2e? :background:
+
+There's some information about how Olm/Megolm came to be (among various other random things) in [[https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last/][this matrix.org blog post]].
+
+**** Why is libolm not on GitHub? :libolm:export:
+
+Placing libolm on GitHub would constitute 'importing' it to the United States, and from there, re-[[https://en.wikipedia.org/wiki/Export_of_cryptography_from_the_United_States][exporting]] it all over the world. To avoid this, libolm is kept in a private git repository outside of the United States. You can find libolm at [[https://matrix.org/git/olm]] instead.
+
+**** What is the problem with crypto export? :export:
+
+The export of cryptographic technology and devices from the United States was severely restricted by U.S. law until 1992, but was gradually eased until 2000. Some restrictions still remain. [[https://en.wikipedia.org/wiki/Export_of_cryptography_from_the_United_States]]
+
 ** Bridges :bridge:
 *** What's a plumbed room? What's a portal room? What types of bridges are there? @@html:<a name="bridge-types">@@ :plumbed:portal:puppet:
 
@@ -417,10 +446,6 @@ In the context of Matrix, any identifier which is not a Matrix ID. This includes
 This code of conduct outlines our expectations for participants within the Matrix community, as well as steps for reporting unacceptable behaviour. We are committed to providing a welcoming and inspiring community for all, and expect our code of conduct to be honoured. Anyone who violates this code of conduct may be banned from the community.
 
 - https://matrix.org/docs/guides/code_of_conduct.html
-
-** crypto export
-
-The export of cryptographic technology and devices from the United States was severely restricted by U.S. law until 1992, but was gradually eased until 2000. Some restrictions still remain. https://en.wikipedia.org/wiki/Export_of_cryptography_from_the_United_States
 
 ** desktop app :missing:
 ** e2e implementation guide
