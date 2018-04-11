@@ -406,10 +406,14 @@ Irc bridges have a dedicated room at [[https://matrix.to/#/#irc:matrix.org][#irc
 
 All other bridges can be discussed at [[https://matrix.to/#/#bridges:matrix.org][#bridges:matrix.org]].
 
-** General
+** Other
 *** How To Ask Questions The Smart Way?
 
 If you'd like to get better answers to your questions, sometimes even without asking, take some time to read [[http://www.catb.org/esr/faqs/smart-questions.html][How To Ask Questions The Smart Way]].
+
+*** How does matrix.org keep their official Twitter and Mastodon in sync?
+
+By means of [[https://github.com/AmauryCarrade/MastodonToTwitter][MastodonToTwitter]].
 
 * Bridges
 ** IRC
