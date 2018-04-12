@@ -189,6 +189,12 @@ The recommended way to set up Synapse is discussed and clarified in [[https://gi
 
 #matrix:matrix.org or Matrix HQ as it's often called, is one of the biggest and oldest rooms in Matrix. It is full of quirks and old, dead servers which your server is all going to try and contact. It is also just plain Big. In short, joining HQ is one of the most extreme real-world stress tests you can put your server through.
 
+*** How do I configure secondary_directory_servers in homeserver.yaml?
+
+This configuration key hasn't been supported since September 2016. ([[https://github.com/matrix-org/synapse/commit/413138112379594bf9290576d44c365af612817d#diff-7604431227e17cc581f690570dfacca6][Source]])
+
+Your best bet is to set up and deploy a custom Riot webclient and add those extra room directories there.
+
 *** My Synapse question isn't answered here. Where can I ask for help? :_lastresort:
 
 General help with setting up and configuring Synapse, as well as basic troubleshooting, can be had from [[https://matrix.to/#/#synapse-community:matrix.org][#synapse-community:matrix.org]]. This room is community-run and /not/ monitored by the Synapse team. Repeat: /not/.
