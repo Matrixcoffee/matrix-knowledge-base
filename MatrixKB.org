@@ -189,6 +189,10 @@ The recommended way to set up Synapse is discussed and clarified in [[https://gi
 
 Yes, several exist. PC-Admin has written [[https://github.com/PC-Admin/PC-Admin-s-Synapse-Setup-Guide][a very complete Debian 9 walkthrough including TURN setup]]. There's also a digitalocean guide which we can't recommend at this time because it makes you replace the self-signed certificate for no good reason. And of course there's [[https://github.com/matrix-org/synapse/blob/master/README.rst][Synapse's very own README]].
 
+*** How do I set up TURN? :turn:coturn:
+
+See [[https://github.com/matrix-org/synapse/blob/master/docs/turn-howto.rst][Synapse's TURN Howto]]. For a clear example configuration, see Max's [[https://gist.github.com/maxidor/2b0acc2e707ae9a2d6d0267026a1024f][working VoIP configuration]]. Finally, there is a [[https://github.com/PC-Admin/PC-Admin-s-Synapse-Setup-Guide][complete Synapse setup guide]] including coturn setup.
+
 *** I tried to join Matrix HQ. Why is my server dying? :HQ:
 
 #matrix:matrix.org or Matrix HQ as it's often called, is one of the biggest and oldest rooms in Matrix. It is full of quirks and old, dead servers which your server is all going to try and contact. It is also just plain Big. In short, joining HQ is one of the most extreme real-world stress tests you can put your server through.
