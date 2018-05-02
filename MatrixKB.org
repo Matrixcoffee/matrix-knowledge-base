@@ -134,6 +134,12 @@ Tip: Android Studio has a
 
 A document explaining this in detail can be found at [[https://github.com/vector-im/riot-android/blob/develop/docs/notifications.md]]
 
+**** What does data save mode do?
+
+Data save mode applies a specific [[https://github.com/matrix-org/matrix-android-sdk/blob/634d7de85e640d650dbc8facf37e40bef6cd0d51/matrix-sdk/src/main/java/org/matrix/androidsdk/sync/EventsThread.java#L56][filter]] so presence updates and typing notifications are filtered out. You will no longer see typing notifications. It does not affect notifications.
+
+You can generally expect Riot to consume less data in this mode. How much is something you'll have to measure and exeriment with yourself. To achieve further data savings, you can also disable the sending of typing notifications in settings.
+
 **** My question isn't answered here. Where can I ask for help? :_lastresort:
 
 Riot-Android version has a dedicated room at [[https://matrix.to/#/#riot-android:matrix.org][#riot-android:matrix.org]] for both user questions and developer talk.
