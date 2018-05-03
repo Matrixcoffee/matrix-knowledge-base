@@ -11,11 +11,9 @@ This is a community-supported collection of FAQs and more on all things [Matrix]
 - Intended for both human consumption and automatic processing. [[more](MatrixKB.org#so-why-another-faq)]
 
 ## Contributing
-Here at Matrix Knowledge Base, we are mainly about collecting answers. The questions are just along for the ride. There's a fine line between collecting useful answers, and becoming a general Q&A forum. To avoid crossing this line, this project does not accept questions, unless they come with a useful answer included. Spelt out completely, this reads: "Questions on the issue tracker not including a proper answer will be closed".
+Anyone can contribute to the project. Please send PRs, or open [issues](https://github.com/Matrixcoffee/matrix-knowledge-base/issues) proposing useful answers or improvements to answers. Of course you are welcome to ask questions about the project itself, but note that merely opening an issue with a question for _someone else_ to answer and add to the FAQ is Not Cool™.
 
-If you have useful knowledge to add, please make a PR or an issue on the [tracker](https://github.com/Matrixcoffee/matrix-knowledge-base/issues).
-
-Remember that a bot will output your answers into a room. Try to keep them as simple and concise as possible. If something needs a longer, more detailed explanation, use a short explanation and a link. Prefer linking to existing resources, but don't be afraid to author new content if necessary.
+Remember that a bot will output your answers into a room. Try to keep them as simple and concise as possible. If something needs a longer, more detailed explanation, use a short explanation and a link. Prefer linking to existing resources, but don't be afraid to author new content if necessary. Most projects on GitHub have a writable wiki, and will benefit from having their documentation nearby.
 
 Please join [#mkb:matrix.org](https://matrix.to/#/#matrix-knowledge-base:matrix.org) to coordinate efforts.
 
