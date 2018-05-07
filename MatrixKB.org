@@ -66,7 +66,7 @@ CORS errors are generally not actually anything to do with CORS, but hide a plai
 
 However, as plain errors don't have CORS headers, it gives this confusing warning.
 
-That said, CORS errors often happen because some plugin is blocking Riot's requests. For example Noscript, Umatrix or Privacy Badger.
+That said, CORS errors often happen because some plugin is blocking Riot's requests. For example Noscript, Umatrix or Privacy Badger. Other causes could be (proxy) timeout.
 
 **** What is the best way to contribute a translation? :i18n:fixme:
 
