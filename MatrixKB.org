@@ -45,7 +45,7 @@ Yes. This document even links to it at the top of the Matrix section.
 
 Good: Visit [[https://github.com/Matrixcoffee/matrix-knowledge-base/edit/master/MatrixKB.org]]. When editing manually, please make sure to obey the org-mode format, including white space and newlines in the right places.
 
-Better: =git clone https://github.com/Matrixcoffee/matrix-knowledge-base.git=, and use a proper org-mode editor. Maybe even emacs.
+Better: ~git clone https://github.com/Matrixcoffee/matrix-knowledge-base.git~, and use a proper org-mode editor. Maybe even emacs.
 
 *** I have questions or suggestions for this FAQ itself. Where can I go to talk to a human? :_lastresort:
 
@@ -217,7 +217,7 @@ Your best bet is to set up and deploy a custom Riot webclient and add those extr
 
 Currently, the only way is to manually toggle the admin flag in the database. The query is:
 
-=update users set admin = 1 where name = '<matrix ID here>';=
+~update users set admin = 1 where name = '<matrix ID here>';~
 
 Note that a Server Admin is not a Room Admin, and Server Admins have very limited power over rooms.
 
@@ -271,7 +271,7 @@ Ironically, e2e encryption reduces privacy in some ways. Since Matrix e2e encryp
 
 *** How does the "mxc://" protocol work?
 
-=mxc://<server>/<content>= is just shorthand for =https://<yourserver>/_matrix/media/v1/download/<server>/<content>=
+~mxc://<server>/<content>~ is just shorthand for ~https://<yourserver>/_matrix/media/v1/download/<server>/<content>~
 
 The spec is at [[https://matrix.org/docs/spec/client_server/r0.3.0.html#id67]].
 
@@ -307,7 +307,7 @@ Try #gsoc:matrix.org
 
 *** How can I test whether my server is properly set up for federation? :federation:tester:
 
-Test your server by appending its domain to: https://matrix.org/federationtester/api/report?server_name=
+Test your server by appending its domain to: ~https://matrix.org/federationtester/api/report?server_name=~
 
 *** How can I delete my account? :delete:account:
 
@@ -390,15 +390,15 @@ The export of cryptographic technology and devices from the United States was se
 
 On joining an IRC room for the first time, you should be invided by the bridge bot, to inform you that you have been bridged to IRC.
 
-The bot will inform you about changes in your IRC status,  and you can give it some commands to control your IRC session. Say =!help= to the bot to see a list of them.
+The bot will inform you about changes in your IRC status,  and you can give it some commands to control your IRC session. Say ~!help~ to the bot to see a list of them.
 
 Be aware that every IRC network has its own bot, and you need to talk to the right one. See [[#bridged-networks]] for the list of IRC networks and the appropriate bridge bots.
 
 **** How do I join an IRC channel with a key? (+k) :key:TESTME:
 
-In a private conversation with the [[#bridge-bot][bridge bot]], say =!join [server] <#channel> <key>=.
+In a private conversation with the [[#bridge-bot][bridge bot]], say ~!join [server] <#channel> <key>~.
 
-If this gives you an error =err_badchannelkey=, type =/markdown off= in the bridge bot room, and then try the =!join= command again.
+If this gives you an error ~err_badchannelkey~, type ~/markdown off~ in the bridge bot room, and then try the ~!join~ command again.
 
 **** Why am I seeing conversations with nonexistant people?
 DEADLINE: <2018-06-01 Fri>
@@ -430,7 +430,7 @@ For example, for Freenode this would be @freenode_nickserv:matrix.org.
 
 Then you should invite it for a private chat, wait until it joins, and just talk to it. Try saying "help".
 
-*Important*: You must not write =/msg NickServ= in front of the commands, as you are not using an IRC client but a Matrix client!
+*Important*: You must not write ~/msg NickServ~ in front of the commands, as you are not using an IRC client but a Matrix client!
 
 **** Where can I get help with IRC bridges? :_lastresort:
 
