@@ -209,6 +209,18 @@ This configuration key hasn't been supported since September 2016. ([[https://gi
 
 Your best bet is to set up and deploy a custom Riot webclient and add those extra room directories there.
 
+*** How do I make an existing user a Server Admin?
+:PROPERTIES:
+:source:   https://matrix.to/#/!HsxjoYRFsDtWBgDQPh:matrix.org/%241527689668886qCUHb:kamax.io
+:credits:  @max:kamax.io
+:END:
+
+Currently, the only way is to manually toggle the admin flag in the database. The query is:
+
+=update users set admin = 1 where name = '<matrix ID here>';=
+
+Note that a Server Admin is not a Room Admin, and Server Admins have very limited power over rooms.
+
 *** My Synapse question isn't answered here. Where can I ask for help? :_lastresort:
 
 General help with setting up and configuring Synapse, as well as basic troubleshooting, can be had from [[https://matrix.to/#/#synapse-community:matrix.org][#synapse-community:matrix.org]]. This room is community-run and /not/ monitored by the Synapse team. Repeat: /not/.
