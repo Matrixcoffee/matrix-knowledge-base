@@ -140,6 +140,15 @@ Data save mode applies a specific [[https://github.com/matrix-org/matrix-android
 
 You can generally expect Riot to consume less data in this mode. How much is something you'll have to measure and experiment with yourself. To achieve further data savings, you can also disable the sending of typing notifications in settings.
 
+**** Can I get access to developer versions of Riot through F-Droid? :f-droid:krombel:
+:PROPERTIES:
+:alts:     Where is Krombel's repo?
+:END:
+
+As a matter of fact, you can! You can add Krombel's repository to F-Droid: https://fdroid.krombel.de/riot-dev-archive
+
+The repository contains both the F-Droid and the Google Play flavours.
+
 **** My question isn't answered here. Where can I ask for help? :_lastresort:
 
 Riot-Android version has a dedicated room at [[https://matrix.to/#/#riot-android:matrix.org][#riot-android:matrix.org]] for both user questions and developer talk.
