@@ -1,6 +1,6 @@
 # Project Moved
 
-## This project has been archived, and exists at https://github.com/Matrixcoffee/matrix-knowledge-base now. Please update your links and your bookmarks accordingly.
+## This project has been archived, and exists at https://gitlab.com/Matrixcoffee/matrix-knowledge-base now. Please update your links and your bookmarks accordingly.
 
 # matrix-knowledge-base
 FAQs and more. A bot-friendly collection of everything there is to know about Matrix and its ecosystem. Also suitable for human consumption.
